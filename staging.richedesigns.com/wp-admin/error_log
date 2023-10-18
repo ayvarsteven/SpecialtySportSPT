@@ -1,0 +1,458 @@
+[06-Aug-2023 21:46:20 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[06-Aug-2023 21:46:20 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[06-Aug-2023 22:16:52 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[06-Aug-2023 22:16:52 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, wp_widgets_init, do_action('widgets_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Widget_Factory->_register_widgets, WP_Widget->_register, WP_Widget_Text->_register_one, wp_add_inline_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[06-Aug-2023 22:16:52 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', 'ctV=kokzBH?T>0QRX+rNH%g[/:O(bn?r^R=aWna]uol9~Fbo,B?]=V6UVugH)z!0', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, wp_widgets_init, do_action('widgets_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Widget_Factory->_register_widgets, WP_Widget->_register, WP_Widget_Text->_register_one, wp_add_inline_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[06-Aug-2023 22:16:52 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[06-Aug-2023 22:16:52 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[07-Aug-2023 17:28:46 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[07-Aug-2023 17:28:46 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[13-Aug-2023 19:29:27 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[13-Aug-2023 19:29:27 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[15-Aug-2023 01:49:29 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[15-Aug-2023 01:49:29 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[15-Aug-2023 01:49:29 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '7l}##226vk6ZPo>Kl45h`N:{,!$hRS?|n{0^THDf,[kPN`H28mT0TWVoHie}:^v:', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[15-Aug-2023 01:49:29 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[15-Aug-2023 01:49:29 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[15-Aug-2023 14:16:15 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[15-Aug-2023 14:16:15 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[15-Aug-2023 14:16:15 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', 'bn^dt@OHv0HR.tE|:w}`U&Hv&c~p39&iG:JC#OTq16bULh!!AAd MMPD-_l6cgX;', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[15-Aug-2023 14:16:15 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[15-Aug-2023 14:16:15 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Aug-2023 04:54:40 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[17-Aug-2023 04:54:40 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Aug-2023 22:35:00 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[18-Aug-2023 22:35:00 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[18-Aug-2023 22:35:00 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '#H!A1mx)KCw=2:]R>,5C-_`qBFBUw::e;pgnu!qlRO_+>(b5AZ6S0R-EkL[p !,x', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[18-Aug-2023 22:35:01 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[18-Aug-2023 22:35:01 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[20-Aug-2023 16:41:05 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[20-Aug-2023 16:41:05 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[30-Aug-2023 21:24:25 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[30-Aug-2023 21:24:25 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[30-Aug-2023 21:24:25 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '+S=.|g4^0df7O*?PLvll=8=1X`m1(&}98H+a^sp,BJ4aSyX+,rH)?oV^-V_@@P_o', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[30-Aug-2023 21:24:26 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[30-Aug-2023 21:24:26 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[05-Sep-2023 17:40:50 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[05-Sep-2023 17:40:50 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[07-Sep-2023 18:00:10 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[07-Sep-2023 18:00:10 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[08-Sep-2023 19:59:26 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[08-Sep-2023 19:59:26 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[15-Sep-2023 16:00:50 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[15-Sep-2023 16:00:51 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[15-Sep-2023 16:00:51 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', ')B%X_n}17q^=3Hy9~v d>S(e+Bm`XmVkG3[@40<.[5/JS^TFj3=6Twy3oEQ6$Z3?', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[15-Sep-2023 16:00:51 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[15-Sep-2023 16:00:51 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[15-Sep-2023 21:32:29 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[15-Sep-2023 21:32:29 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[15-Sep-2023 21:32:29 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '0Z-d[4.**X>~DI+DmPCR+gb/BOW,iP[,Gx-Yy<XiW77YVJd.G`{HIY9S4nBg5]Ei', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[15-Sep-2023 21:32:29 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[15-Sep-2023 21:32:29 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[16-Sep-2023 00:22:43 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[16-Sep-2023 00:22:43 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[25-Sep-2023 13:26:21 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[25-Sep-2023 13:26:21 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[25-Sep-2023 13:26:21 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '-%5df[5FeZ -aSB%|.K2zls2P2dA2,cT4E&Iw+zABq~9VPG2>4Re|j42;8_JK**u', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[25-Sep-2023 13:26:21 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[25-Sep-2023 13:26:21 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-Oct-2023 17:06:08 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[02-Oct-2023 17:06:08 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[02-Oct-2023 17:06:08 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '!=vx[}$9>{#pT{WYOvr0jzmcsLD}$$@5|E|:,.ETjP<s=ElR@if9& |14@@_?4u/', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[02-Oct-2023 17:06:08 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[02-Oct-2023 17:06:08 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[03-Oct-2023 06:46:40 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[03-Oct-2023 06:46:40 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[06-Oct-2023 20:21:50 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[06-Oct-2023 20:21:50 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[07-Oct-2023 20:19:12 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[07-Oct-2023 20:19:12 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[08-Oct-2023 21:25:50 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[08-Oct-2023 21:25:51 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[08-Oct-2023 21:25:51 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', 'o!C?)Cu&g ViK{2W!]v1d{ZV0Ds)d%{oF=HPpo@T~lE]WtG6* EF~qyF|wa9S$#6', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[08-Oct-2023 21:25:51 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[08-Oct-2023 21:25:51 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[12-Oct-2023 07:49:24 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[12-Oct-2023 07:49:24 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[15-Oct-2023 03:11:01 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'kadence_blocks_colors' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('after_setup_theme'), WP_Hook->do_action, WP_Hook->apply_filters, Kadence_Blocks_Settings->load_color_palette, get_option
+[15-Oct-2023 03:11:01 UTC] WordPress database error Malformed packet for query SELECT option_value FROM wp_options WHERE option_name = 'nonce_key' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, get_site_option, get_network_option, get_option
+[15-Oct-2023 03:11:01 UTC] WordPress database error Lost connection to MySQL server during query for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', 'E;* S}c8@|ZvB(>EY@`81N0Ip/rBB{QC7Ty.f#,eIH4$|-PPQS]^{qr.Ai!Un#Fn', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_file, register_block_type_from_metadata, register_block_script_handle, wp_register_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_scripts, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[15-Oct-2023 03:11:01 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[15-Oct-2023 03:11:01 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[17-Oct-2023 18:05:00 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[17-Oct-2023 18:05:00 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
