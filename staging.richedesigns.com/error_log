@@ -29443,3 +29443,66 @@
 [18-Oct-2023 04:54:28 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT * FROM wp_posts WHERE ID = 12 LIMIT 1 made by login_header, do_action('login_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_site_icon, has_site_icon, get_site_icon_url, wp_get_attachment_image_url, wp_get_attachment_image_src, image_downsize, wp_get_attachment_url, get_post, WP_Post::get_instance
 [18-Oct-2023 04:54:28 UTC] WordPress database error Malformed packet for query SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (12) ORDER BY meta_id ASC made by login_header, do_action('login_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_site_icon, has_site_icon, get_site_icon_url, wp_get_attachment_image_url, wp_get_attachment_image_src, image_downsize, wp_get_attachment_metadata, get_post_meta, get_metadata, get_metadata_raw, update_meta_cache
 [18-Oct-2023 04:54:28 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1 made by login_footer, the_privacy_policy_link, get_the_privacy_policy_link, get_privacy_policy_url, get_post_status, get_post, WP_Post::get_instance
+[18-Oct-2023 14:53:02 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[18-Oct-2023 14:53:02 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Oct-2023 17:44:21 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[18-Oct-2023 17:44:21 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Oct-2023 17:44:21 UTC] WordPress database error Malformed packet for query 
+			SELECT  t.term_id
+			FROM wp_terms AS t  INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id
+			WHERE tt.taxonomy IN ('wp_theme') AND t.name IN ('twentytwentythree')
+			
+			LIMIT 1
+		 made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts, WP_Tax_Query->get_sql, WP_Tax_Query->get_sql_clauses, WP_Tax_Query->get_sql_for_query, WP_Tax_Query->get_sql_for_clause, WP_Tax_Query->clean_query, WP_Tax_Query->transform_query, WP_Term_Query->query, WP_Term_Query->get_terms
+[18-Oct-2023 17:44:21 UTC] WordPress database error Lost connection to MySQL server during query for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND ( 
+  0 = 1
+) AND wp_posts.post_type = 'wp_template_part' AND ((wp_posts.post_status = 'publish'))
+			GROUP BY wp_posts.ID
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[18-Oct-2023 17:44:21 UTC] WordPress database error Malformed packet for query 
+			SELECT   wp_posts.*
+			FROM wp_posts 
+			WHERE 1=1  AND wp_posts.ID = 5 AND wp_posts.post_type = 'page'
+			
+			ORDER BY wp_posts.post_date DESC
+			
+		 made by require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[18-Oct-2023 17:44:21 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, redirect_canonical, get_post, WP_Post::get_instance
+[18-Oct-2023 17:44:21 UTC] WordPress database error Malformed packet for query SELECT * FROM wp_posts WHERE ID = 12 LIMIT 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_site_icon, has_site_icon, get_site_icon_url, wp_get_attachment_image_url, wp_get_attachment_image_src, image_downsize, wp_attachment_is_image, wp_attachment_is, get_post, WP_Post::get_instance
+[18-Oct-2023 17:44:21 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT * FROM wp_posts WHERE ID = 12 LIMIT 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_site_icon, has_site_icon, get_site_icon_url, wp_get_attachment_image_url, wp_get_attachment_image_src, image_downsize, wp_get_attachment_url, get_post, WP_Post::get_instance
+[18-Oct-2023 17:44:21 UTC] WordPress database error Malformed packet for query SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (12) ORDER BY meta_id ASC made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_site_icon, has_site_icon, get_site_icon_url, wp_get_attachment_image_url, wp_get_attachment_image_src, image_downsize, wp_get_attachment_metadata, get_post_meta, get_metadata, get_metadata_raw, update_meta_cache
