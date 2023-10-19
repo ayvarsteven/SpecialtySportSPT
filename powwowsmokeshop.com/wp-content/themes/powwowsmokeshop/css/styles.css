@@ -599,6 +599,7 @@ html {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     position: fixed;
     z-index: 10000;
+    top: 0;
   }
   #cs-navigation .cs-container {
     width: 100%;

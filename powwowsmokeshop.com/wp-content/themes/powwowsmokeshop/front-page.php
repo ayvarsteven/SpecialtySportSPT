@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<?php get_template_part('includes/section', 'content'); ?>
 
 <!-- ============================================ -->
 <!--                    Hero                      -->
@@ -19,11 +20,15 @@
     </div>
 
     <!-- Background Image -->
-    <picture class="cs-background">
+    <div>
+        <img class="cs-background wp-image-19" src="http://powwowsmokeshop.com.test/wp-content/uploads/2023/10/smoke-scaled.jpg" alt="test image background "/>
+    </div>
+
+    <!-- <picture class="cs-background">
         <source media="(max-width: 600px)" srcset="<?php echo get_theme_file_uri( '/img/smoke.jpg' ) ?>">
         <source media="(min-width: 601px)" srcset="<?php echo get_theme_file_uri( '/img/smoke.jpg' ) ?>">
         <img loading="lazy" decoding="async" src="<?php echo get_theme_file_uri( '/img/smoke.jpg' ) ?>" alt="field" width="1920" height="1200" aria-hidden="true">
-    </picture>
+    </picture> -->
 </section>
 
 <!-- ============================================ -->
