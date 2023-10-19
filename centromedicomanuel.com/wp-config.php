@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'centromedicomanuel' );
+define( 'DB_NAME', 'centromedicomanuel.com' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -55,14 +55,14 @@ if ( !defined('WP_CLI') ) {
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'XiXCFslTGC2lbfoMehAB2W82MwsVB4RB5SqBCSv6ULOPykNzg8d0RBU61Jf0CKQd' );
-define( 'SECURE_AUTH_KEY',  'ruIVrGTI3uLBZyhY6spjER9OZq5fWwEvlP5UOghdkhXNta9xlLIhq5p6XpFqKgta' );
-define( 'LOGGED_IN_KEY',    'zIoor0j2KtMIxelGxLAAxh6lbFjDPzrIEXh3gnKUJwRVpQX5bdqI3aEQXSEeD7sz' );
-define( 'NONCE_KEY',        'mFEar0jdVTSSoI60uZe0WY0jIyKecByFPerZL7hn7cykaR1pDbEpxE14v3r9EIzH' );
-define( 'AUTH_SALT',        'aBTVr0jp7jY2fcPDqeSJmFdhfsbOyCGB2vBWgOORtRfIVS5J69S638mg4ce3GkHP' );
-define( 'SECURE_AUTH_SALT', '8GR3rnwFx130XMJdDvi0vJdwC2wibE9bgdNuJeiWRjxZLIvFell07pafPv8S9yK7' );
-define( 'LOGGED_IN_SALT',   'bgQmEygx0Gh5Y2kGbZnF6qZkt1cwbhAVKnAzotnngQpXQRzXc7KDTN2il8R7EXXf' );
-define( 'NONCE_SALT',       'x9foPcqwhUrXGsgnexYU9QEI2lHxHXIVmnqP16n2GWtD7EoswlERNNMSi5Ne2A3G' );
+define( 'AUTH_KEY',         'bI6NSwURKCRhaggB1hf7aOytDwJFAwbsGK5laqDyZDzIirJ6P2Qw6BuNzebt8OuS' );
+define( 'SECURE_AUTH_KEY',  'XnWKfz3zAn9TUwepU8398BSYlDmc1OZTG5yiUg0MrnpPYaW9mjbWQjbZINbRqQAu' );
+define( 'LOGGED_IN_KEY',    'jflMqdcyICiMCXb8YGEma2xlSZQdxu8Ti6oxwT0qRttveXLCGy5aLkWAGJ8ZNsFV' );
+define( 'NONCE_KEY',        'jaDXP7g2dYKv7LjkClC0sX9spGYhCIebXhMBofQDfhiluy6FLCbHJYqUHuDDWp7O' );
+define( 'AUTH_SALT',        'eqg1qGC4B2q338Zimduds9yQC8xbNy23MuLCtJ0ADn52VDEuYY1hSUxxenTHIVMs' );
+define( 'SECURE_AUTH_SALT', 'nuhxPNTzmFPKm1iDgVdQur6dYwy09NtXv7afkMNo3YuIg5l9KgmcpntEthuhhu0u' );
+define( 'LOGGED_IN_SALT',   'C4jhpQHIigqf1ziQwQCBWnoaQjVQQEW4tbbrmE3yrEu8QNE0k8FxFVsPsuXfVdFq' );
+define( 'NONCE_SALT',       'goMWbjsBUp9uEXl0D5c0jFlfSTr5s05AOzQkxJMiTXeWRsnI71p3McpBDjtutlev' );
 
 /**#@-*/
 
