@@ -27,7 +27,7 @@ if(strstr($_SERVER['SERVER_NAME'], 'powwowsmokeshop.com.test')) {
 } else {
     define( 'DB_NAME', 'powwowsmokeshop' );
     define( 'DB_USER', 'steve_powwowsmokeshop' );
-    define( 'DB_PASSWORD', '' );
+    define( 'DB_PASSWORD', 'september51995' );
     define( 'DB_HOST', 'localhost' );
 }
 
