@@ -1,0 +1,1794 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-30 08:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bt_bb_raw_content.php:22
+msgid "Raw Content"
+msgstr ""
+
+#: bt_bb_raw_content.php:22
+msgid "Raw HTML/JS content"
+msgstr ""
+
+#: bt_bb_raw_content.php:24
+msgid "Raw content"
+msgstr ""
+
+#: bt_bb_twitter.php:126
+msgid "Twitter (deprecated)"
+msgstr ""
+
+#: bt_bb_twitter.php:126
+msgid "Twitter posts"
+msgstr ""
+
+#: bt_bb_twitter.php:128
+msgid "Number of Tweets"
+msgstr ""
+
+#: bt_bb_twitter.php:129 medicare.php:3878
+msgid "Type"
+msgstr ""
+
+#: bt_bb_twitter.php:131 medicare.php:3880 medicare.php:4006
+msgid "Slider"
+msgstr ""
+
+#: bt_bb_twitter.php:132
+msgid "Regular grid"
+msgstr ""
+
+#: bt_bb_twitter.php:134
+msgid "Show avatar"
+msgstr ""
+
+#: bt_bb_twitter.php:136 medicare.php:3445 medicare.php:3483 medicare.php:3492
+#: medicare.php:3507 medicare.php:3519 medicare.php:3525 medicare.php:3624
+#: medicare.php:3629 medicare.php:3665 medicare.php:3717 medicare.php:3780
+#: medicare.php:3830 medicare.php:3912 medicare.php:4018 medicare.php:4023
+#: medicare.php:4045 medicare.php:4077 medicare.php:4086 medicare.php:4095
+#: medicare.php:4146 medicare.php:4152 medicare.php:4203 medicare.php:4208
+#: medicare.php:4213 medicare.php:4218 medicare.php:4223 medicare.php:4253
+#: medicare.php:4280 medicare.php:4290 medicare.php:4295
+msgid "No"
+msgstr ""
+
+#: bt_bb_twitter.php:137 medicare.php:3446 medicare.php:3508 medicare.php:3520
+#: medicare.php:3526 medicare.php:3625 medicare.php:3630 medicare.php:3666
+#: medicare.php:3781 medicare.php:4019 medicare.php:4024 medicare.php:4046
+#: medicare.php:4096 medicare.php:4147 medicare.php:4202 medicare.php:4207
+#: medicare.php:4212 medicare.php:4217 medicare.php:4222 medicare.php:4254
+#: medicare.php:4281 medicare.php:4291 medicare.php:4296
+msgid "Yes"
+msgstr ""
+
+#: bt_bb_twitter.php:139
+msgid "Number of slides to show"
+msgstr ""
+
+#: bt_bb_twitter.php:139
+msgid "(1-6) e.g. 3"
+msgstr ""
+
+#: bt_bb_twitter.php:140
+msgid "Gap"
+msgstr ""
+
+#: bt_bb_twitter.php:142
+msgid "No gap"
+msgstr ""
+
+#: bt_bb_twitter.php:143 medicare.php:3709 medicare.php:3820 medicare.php:3940
+#: medicare.php:4011 medicare.php:4131
+msgid "Small"
+msgstr ""
+
+#: bt_bb_twitter.php:144 medicare.php:3947 medicare.php:4167
+msgid "Normal"
+msgstr ""
+
+#: bt_bb_twitter.php:145 medicare.php:3711 medicare.php:3824 medicare.php:4013
+#: medicare.php:4135
+msgid "Large"
+msgstr ""
+
+#: bt_bb_twitter.php:148
+msgid "Autoplay interval (ms)"
+msgstr ""
+
+#: bt_bb_twitter.php:148
+msgid "e.g. 2000"
+msgstr ""
+
+#: bt_bb_twitter.php:149
+msgid "Username (or #hashtag)"
+msgstr ""
+
+#: bt_bb_twitter.php:150
+msgid "Cache (minutes)"
+msgstr ""
+
+#: bt_bb_twitter.php:152
+msgid "Consumer Key"
+msgstr ""
+
+#: bt_bb_twitter.php:152 bt_bb_twitter.php:153 bt_bb_twitter.php:154
+#: bt_bb_twitter.php:155
+msgid "API"
+msgstr ""
+
+#: bt_bb_twitter.php:153
+msgid "Consumer Secret"
+msgstr ""
+
+#: bt_bb_twitter.php:154
+msgid "Access Token"
+msgstr ""
+
+#: bt_bb_twitter.php:155
+msgid "Access Token Secret"
+msgstr ""
+
+#: medicare.php:26
+msgid "Custom JS (Top)"
+msgstr ""
+
+#: medicare.php:42
+msgid "Custom JS (Bottom)"
+msgstr ""
+
+#: medicare.php:59 medicare.php:136 medicare.php:213
+msgid "Share on Facebook"
+msgstr ""
+
+#: medicare.php:74 medicare.php:151 medicare.php:228
+msgid "Share on Twitter"
+msgstr ""
+
+#: medicare.php:89 medicare.php:166 medicare.php:243
+msgid "Share on Google Plus"
+msgstr ""
+
+#: medicare.php:104 medicare.php:181 medicare.php:258
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: medicare.php:119 medicare.php:196 medicare.php:273
+msgid "Share on VK"
+msgstr ""
+
+#: medicare.php:2983
+msgid "Category filter:"
+msgstr ""
+
+#: medicare.php:2984
+msgid "All"
+msgstr ""
+
+#: medicare.php:2994
+msgid "No more posts"
+msgstr ""
+
+#: medicare.php:3433 medicare.php:3435 medicare.php:3749 medicare.php:3898
+#: medicare.php:4065
+msgid "Image"
+msgstr ""
+
+#: medicare.php:3433
+msgid "Single image"
+msgstr ""
+
+#: medicare.php:3436
+msgid "Caption Text"
+msgstr ""
+
+#: medicare.php:3437
+msgid "Size (e.g. thumbnail, medium, large, full)"
+msgstr ""
+
+#: medicare.php:3438
+msgid "Shape"
+msgstr ""
+
+#: medicare.php:3440
+msgid "Square"
+msgstr ""
+
+#: medicare.php:3441
+msgid "Circle"
+msgstr ""
+
+#: medicare.php:3443 medicare.php:3523
+msgid "Lazy load this image"
+msgstr ""
+
+#: medicare.php:3448 medicare.php:3826 medicare.php:3899 medicare.php:3909
+#: medicare.php:4149
+msgid "URL"
+msgstr ""
+
+#: medicare.php:3449
+msgid "Target"
+msgstr ""
+
+#: medicare.php:3451 medicare.php:3913 medicare.php:4153
+msgid "Self"
+msgstr ""
+
+#: medicare.php:3452 medicare.php:3914 medicare.php:4154
+msgid "Blank"
+msgstr ""
+
+#: medicare.php:3454
+msgid "Hover type"
+msgstr ""
+
+#: medicare.php:3456 medicare.php:3605 medicare.php:3652 medicare.php:3808
+#: medicare.php:3814 medicare.php:4040 medicare.php:4119 medicare.php:4139
+msgid "Default"
+msgstr ""
+
+#: medicare.php:3457
+msgid "Simple"
+msgstr ""
+
+#: medicare.php:3459 medicare.php:3567 medicare.php:3686 medicare.php:3728
+#: medicare.php:3767 medicare.php:3783 medicare.php:3798 medicare.php:3834
+#: medicare.php:3861 medicare.php:3883 medicare.php:3900 medicare.php:3950
+#: medicare.php:3968 medicare.php:3991 medicare.php:4048 medicare.php:4066
+#: medicare.php:4098 medicare.php:4171 medicare.php:4225 medicare.php:4298
+#: medicare.php:4342 medicare.php:4365 medicare.php:4384 medicare.php:4402
+msgid "Publish date"
+msgstr ""
+
+#: medicare.php:3459 medicare.php:3460 medicare.php:3567 medicare.php:3568
+#: medicare.php:3686 medicare.php:3687 medicare.php:3728 medicare.php:3729
+#: medicare.php:3767 medicare.php:3768 medicare.php:3783 medicare.php:3784
+#: medicare.php:3798 medicare.php:3799 medicare.php:3834 medicare.php:3835
+#: medicare.php:3861 medicare.php:3862 medicare.php:3883 medicare.php:3884
+#: medicare.php:3900 medicare.php:3901 medicare.php:3950 medicare.php:3951
+#: medicare.php:3968 medicare.php:3969 medicare.php:3991 medicare.php:3992
+#: medicare.php:4048 medicare.php:4049 medicare.php:4066 medicare.php:4067
+#: medicare.php:4098 medicare.php:4099 medicare.php:4171 medicare.php:4172
+#: medicare.php:4225 medicare.php:4226 medicare.php:4298 medicare.php:4299
+#: medicare.php:4342 medicare.php:4343 medicare.php:4365 medicare.php:4366
+#: medicare.php:4384 medicare.php:4385 medicare.php:4402 medicare.php:4403
+msgid "Please, fill both the date and time"
+msgstr ""
+
+#: medicare.php:3459 medicare.php:3460 medicare.php:3461 medicare.php:3462
+#: medicare.php:3536 medicare.php:3537 medicare.php:3538 medicare.php:3567
+#: medicare.php:3568 medicare.php:3636 medicare.php:3637 medicare.php:3670
+#: medicare.php:3671 medicare.php:3686 medicare.php:3687 medicare.php:3688
+#: medicare.php:3689 medicare.php:3728 medicare.php:3729 medicare.php:3730
+#: medicare.php:3731 medicare.php:3767 medicare.php:3768 medicare.php:3783
+#: medicare.php:3784 medicare.php:3798 medicare.php:3799 medicare.php:3834
+#: medicare.php:3835 medicare.php:3836 medicare.php:3837 medicare.php:3861
+#: medicare.php:3862 medicare.php:3863 medicare.php:3864 medicare.php:3883
+#: medicare.php:3884 medicare.php:3900 medicare.php:3901 medicare.php:3950
+#: medicare.php:3951 medicare.php:3952 medicare.php:3953 medicare.php:3968
+#: medicare.php:3969 medicare.php:3991 medicare.php:3992 medicare.php:3993
+#: medicare.php:3994 medicare.php:4048 medicare.php:4049 medicare.php:4050
+#: medicare.php:4051 medicare.php:4066 medicare.php:4067 medicare.php:4068
+#: medicare.php:4069 medicare.php:4098 medicare.php:4099 medicare.php:4100
+#: medicare.php:4101 medicare.php:4158 medicare.php:4159 medicare.php:4171
+#: medicare.php:4172 medicare.php:4173 medicare.php:4174 medicare.php:4225
+#: medicare.php:4226 medicare.php:4227 medicare.php:4228 medicare.php:4298
+#: medicare.php:4299 medicare.php:4300 medicare.php:4301 medicare.php:4342
+#: medicare.php:4343 medicare.php:4344 medicare.php:4345 medicare.php:4365
+#: medicare.php:4366 medicare.php:4384 medicare.php:4385 medicare.php:4386
+#: medicare.php:4387 medicare.php:4402 medicare.php:4403 medicare.php:4404
+#: medicare.php:4405
+msgid "Custom"
+msgstr ""
+
+#: medicare.php:3460 medicare.php:3568 medicare.php:3687 medicare.php:3729
+#: medicare.php:3768 medicare.php:3784 medicare.php:3799 medicare.php:3835
+#: medicare.php:3862 medicare.php:3884 medicare.php:3901 medicare.php:3951
+#: medicare.php:3969 medicare.php:3992 medicare.php:4049 medicare.php:4067
+#: medicare.php:4099 medicare.php:4172 medicare.php:4226 medicare.php:4299
+#: medicare.php:4343 medicare.php:4366 medicare.php:4385 medicare.php:4403
+msgid "Expiry date"
+msgstr ""
+
+#: medicare.php:3461 medicare.php:3537 medicare.php:3552 medicare.php:3569
+#: medicare.php:3636 medicare.php:3670 medicare.php:3688 medicare.php:3730
+#: medicare.php:3836 medicare.php:3863 medicare.php:3952 medicare.php:3993
+#: medicare.php:4050 medicare.php:4068 medicare.php:4100 medicare.php:4158
+#: medicare.php:4173 medicare.php:4227 medicare.php:4300 medicare.php:4344
+#: medicare.php:4367 medicare.php:4386 medicare.php:4404
+msgid "Extra Class Name(s)"
+msgstr ""
+
+#: medicare.php:3462 medicare.php:3538 medicare.php:3553 medicare.php:3570
+#: medicare.php:3637 medicare.php:3671 medicare.php:3689 medicare.php:3731
+#: medicare.php:3837 medicare.php:3864 medicare.php:3953 medicare.php:3994
+#: medicare.php:4051 medicare.php:4069 medicare.php:4101 medicare.php:4159
+#: medicare.php:4174 medicare.php:4228 medicare.php:4301 medicare.php:4345
+#: medicare.php:4368 medicare.php:4387 medicare.php:4405
+msgid "Inline Style"
+msgstr ""
+
+#: medicare.php:3463 medicare.php:3539 medicare.php:3554 medicare.php:3571
+#: medicare.php:3672 medicare.php:3690 medicare.php:3732 medicare.php:3759
+#: medicare.php:3785 medicare.php:3838 medicare.php:3865 medicare.php:3885
+#: medicare.php:3954 medicare.php:3970 medicare.php:3995 medicare.php:4052
+#: medicare.php:4102 medicare.php:4175 medicare.php:4229 medicare.php:4302
+#: medicare.php:4346 medicare.php:4369 medicare.php:4388 medicare.php:4406
+msgid "Hide element on screens"
+msgstr ""
+
+#: medicare.php:3463 medicare.php:3539 medicare.php:3554 medicare.php:3571
+#: medicare.php:3672 medicare.php:3690 medicare.php:3732 medicare.php:3759
+#: medicare.php:3785 medicare.php:3838 medicare.php:3865 medicare.php:3885
+#: medicare.php:3954 medicare.php:3970 medicare.php:3995 medicare.php:4052
+#: medicare.php:4102 medicare.php:4175 medicare.php:4229 medicare.php:4302
+#: medicare.php:4346 medicare.php:4369 medicare.php:4388 medicare.php:4406
+msgid "Responsive"
+msgstr ""
+
+#: medicare.php:3465 medicare.php:3541 medicare.php:3556 medicare.php:3573
+#: medicare.php:3674 medicare.php:3692 medicare.php:3734 medicare.php:3761
+#: medicare.php:3787 medicare.php:3840 medicare.php:3867 medicare.php:3887
+#: medicare.php:3956 medicare.php:3972 medicare.php:3997 medicare.php:4054
+#: medicare.php:4104 medicare.php:4177 medicare.php:4231 medicare.php:4304
+#: medicare.php:4348 medicare.php:4371 medicare.php:4390 medicare.php:4408
+msgid "<480px"
+msgstr ""
+
+#: medicare.php:3466 medicare.php:3542 medicare.php:3557 medicare.php:3574
+#: medicare.php:3675 medicare.php:3693 medicare.php:3735 medicare.php:3762
+#: medicare.php:3788 medicare.php:3841 medicare.php:3868 medicare.php:3888
+#: medicare.php:3957 medicare.php:3973 medicare.php:3998 medicare.php:4055
+#: medicare.php:4105 medicare.php:4178 medicare.php:4232 medicare.php:4305
+#: medicare.php:4349 medicare.php:4372 medicare.php:4391 medicare.php:4409
+msgid "480-767px"
+msgstr ""
+
+#: medicare.php:3467 medicare.php:3543 medicare.php:3558 medicare.php:3575
+#: medicare.php:3676 medicare.php:3694 medicare.php:3736 medicare.php:3763
+#: medicare.php:3789 medicare.php:3842 medicare.php:3869 medicare.php:3889
+#: medicare.php:3958 medicare.php:3974 medicare.php:3999 medicare.php:4056
+#: medicare.php:4106 medicare.php:4179 medicare.php:4233 medicare.php:4306
+#: medicare.php:4350 medicare.php:4373 medicare.php:4392 medicare.php:4410
+msgid "768-991px"
+msgstr ""
+
+#: medicare.php:3468 medicare.php:3544 medicare.php:3559 medicare.php:3576
+#: medicare.php:3677 medicare.php:3695 medicare.php:3737 medicare.php:3764
+#: medicare.php:3790 medicare.php:3843 medicare.php:3870 medicare.php:3890
+#: medicare.php:3959 medicare.php:3975 medicare.php:4000 medicare.php:4057
+#: medicare.php:4107 medicare.php:4180 medicare.php:4234 medicare.php:4307
+#: medicare.php:4351 medicare.php:4374 medicare.php:4393 medicare.php:4411
+msgid "992-1200px"
+msgstr ""
+
+#: medicare.php:3469 medicare.php:3545 medicare.php:3560 medicare.php:3577
+#: medicare.php:3678 medicare.php:3696 medicare.php:3738 medicare.php:3765
+#: medicare.php:3791 medicare.php:3844 medicare.php:3871 medicare.php:3891
+#: medicare.php:3960 medicare.php:3976 medicare.php:4001 medicare.php:4058
+#: medicare.php:4108 medicare.php:4181 medicare.php:4235 medicare.php:4308
+#: medicare.php:4352 medicare.php:4375 medicare.php:4394 medicare.php:4412
+msgid ">=1200px"
+msgstr ""
+
+#: medicare.php:3474
+msgid "Section"
+msgstr ""
+
+#: medicare.php:3474
+msgid "Basic root element"
+msgstr ""
+
+#: medicare.php:3476
+msgid "Layout"
+msgstr ""
+
+#: medicare.php:3478
+msgid "Boxed"
+msgstr ""
+
+#: medicare.php:3479
+msgid "Wide"
+msgstr ""
+
+#: medicare.php:3481 medicare.php:4075
+msgid "Top spaced"
+msgstr ""
+
+#: medicare.php:3484 medicare.php:3493 medicare.php:4078 medicare.php:4087
+msgid "Extra-Small-Spaced"
+msgstr ""
+
+#: medicare.php:3485 medicare.php:3494 medicare.php:4079 medicare.php:4088
+msgid "Small-Spaced"
+msgstr ""
+
+#: medicare.php:3486 medicare.php:3495 medicare.php:4080 medicare.php:4089
+msgid "Semi-Spaced"
+msgstr ""
+
+#: medicare.php:3487 medicare.php:3496 medicare.php:4081 medicare.php:4090
+msgid "Spaced"
+msgstr ""
+
+#: medicare.php:3488 medicare.php:3497 medicare.php:4082 medicare.php:4091
+msgid "Extra-Spaced"
+msgstr ""
+
+#: medicare.php:3490 medicare.php:4084
+msgid "Bottom spaced"
+msgstr ""
+
+#: medicare.php:3499
+msgid "Skin"
+msgstr ""
+
+#: medicare.php:3499 medicare.php:3522 medicare.php:3523 medicare.php:3528
+#: medicare.php:3529 medicare.php:3530 medicare.php:3531 medicare.php:3532
+msgid "Background"
+msgstr ""
+
+#: medicare.php:3501 medicare.php:3512 medicare.php:3592 medicare.php:3658
+msgid "Inherit"
+msgstr ""
+
+#: medicare.php:3502 medicare.php:3932
+msgid "Dark"
+msgstr ""
+
+#: medicare.php:3503 medicare.php:3935
+msgid "Light"
+msgstr ""
+
+#: medicare.php:3505
+msgid "Full Screen"
+msgstr ""
+
+#: medicare.php:3510 medicare.php:3590 medicare.php:3656
+msgid "Vertical Align"
+msgstr ""
+
+#: medicare.php:3513 medicare.php:3593 medicare.php:3659 medicare.php:3718
+#: medicare.php:3916 medicare.php:4030 medicare.php:4156
+msgid "Top"
+msgstr ""
+
+#: medicare.php:3514 medicare.php:3594 medicare.php:3660 medicare.php:4028
+msgid "Middle"
+msgstr ""
+
+#: medicare.php:3515 medicare.php:3595 medicare.php:3661 medicare.php:3719
+#: medicare.php:3831 medicare.php:4029 medicare.php:4034
+msgid "Bottom"
+msgstr ""
+
+#: medicare.php:3517
+msgid "Divider"
+msgstr ""
+
+#: medicare.php:3522
+msgid "Background Image"
+msgstr ""
+
+#: medicare.php:3528 medicare.php:3632 medicare.php:3668
+msgid "Background color"
+msgstr ""
+
+#: medicare.php:3529
+msgid "YouTube Background Video"
+msgstr ""
+
+#: medicare.php:3530
+msgid "Video Settings (e.g. startAt:20, mute:true, stopMovieOnBlur:false)"
+msgstr ""
+
+#: medicare.php:3531
+msgid "Parallax (e.g. -.7)"
+msgstr ""
+
+#: medicare.php:3532
+msgid "Parallax Offset in px (e.g. -100)"
+msgstr ""
+
+#: medicare.php:3533
+msgid "Animation (forward)"
+msgstr ""
+
+#: medicare.php:3533 medicare.php:3534 medicare.php:3535
+msgid "Animations"
+msgstr ""
+
+#: medicare.php:3534
+msgid "Animation (backward)"
+msgstr ""
+
+#: medicare.php:3535
+msgid "Impress Animation Settings"
+msgstr ""
+
+#: medicare.php:3536
+msgid "Custom Id Attribute"
+msgstr ""
+
+#: medicare.php:3550
+msgid "Row"
+msgstr ""
+
+#: medicare.php:3550
+msgid "Row element"
+msgstr ""
+
+#: medicare.php:3565
+msgid "Inner Row"
+msgstr ""
+
+#: medicare.php:3565
+msgid "Inner Row element"
+msgstr ""
+
+#: medicare.php:3582
+msgid "Column"
+msgstr ""
+
+#: medicare.php:3582
+msgid "Column element"
+msgstr ""
+
+#: medicare.php:3584 medicare.php:3644
+msgid "Align"
+msgstr ""
+
+#: medicare.php:3586 medicare.php:3600 medicare.php:3646 medicare.php:3928
+msgid "Left"
+msgstr ""
+
+#: medicare.php:3587 medicare.php:3601 medicare.php:3647 medicare.php:3926
+msgid "Right"
+msgstr ""
+
+#: medicare.php:3588 medicare.php:3648
+msgid "Center"
+msgstr ""
+
+#: medicare.php:3597 medicare.php:4093
+msgid "Border"
+msgstr ""
+
+#: medicare.php:3599
+msgid "No Border"
+msgstr ""
+
+#: medicare.php:3603 medicare.php:3650
+msgid "Padding"
+msgstr ""
+
+#: medicare.php:3606 medicare.php:3653
+msgid "No padding"
+msgstr ""
+
+#: medicare.php:3607 medicare.php:3654
+msgid "Double padding"
+msgstr ""
+
+#: medicare.php:3609 medicare.php:4038
+msgid "Animation"
+msgstr ""
+
+#: medicare.php:3611
+msgid "No Animation"
+msgstr ""
+
+#: medicare.php:3612
+msgid "Fade In"
+msgstr ""
+
+#: medicare.php:3613
+msgid "Move Up"
+msgstr ""
+
+#: medicare.php:3614
+msgid "Move Left"
+msgstr ""
+
+#: medicare.php:3615
+msgid "Move Right"
+msgstr ""
+
+#: medicare.php:3616
+msgid "Move Down"
+msgstr ""
+
+#: medicare.php:3617
+msgid "Fade In / Move Up"
+msgstr ""
+
+#: medicare.php:3618
+msgid "Fade In / Move Left"
+msgstr ""
+
+#: medicare.php:3619
+msgid "Fade In / Move Right"
+msgstr ""
+
+#: medicare.php:3620
+msgid "Fade In / Move Down"
+msgstr ""
+
+#: medicare.php:3622
+msgid "Text indent"
+msgstr ""
+
+#: medicare.php:3627 medicare.php:3663
+msgid "Highlight"
+msgstr ""
+
+#: medicare.php:3633 medicare.php:3669
+msgid "Opacity (0 - 1, e.g. 0.4) (deprecated)"
+msgstr ""
+
+#: medicare.php:3634
+msgid "Inner Background color"
+msgstr ""
+
+#: medicare.php:3635
+msgid "Background image"
+msgstr ""
+
+#: medicare.php:3642
+msgid "Inner Column"
+msgstr ""
+
+#: medicare.php:3642
+msgid "Inner Column element"
+msgstr ""
+
+#: medicare.php:3683
+msgid "Custom Menu"
+msgstr ""
+
+#: medicare.php:3685
+msgid "Menu Name"
+msgstr ""
+
+#: medicare.php:3701 medicare.php:3750 medicare.php:3833 medicare.php:3907
+#: medicare.php:3983
+msgid "Text"
+msgstr ""
+
+#: medicare.php:3701
+msgid "Text element"
+msgstr ""
+
+#: medicare.php:3703
+msgid "Header"
+msgstr ""
+
+#: medicare.php:3703
+msgid "Header element"
+msgstr ""
+
+#: medicare.php:3705
+msgid "Superheadline"
+msgstr ""
+
+#: medicare.php:3706 medicare.php:3748 medicare.php:3773 medicare.php:3797
+#: medicare.php:3827
+msgid "Headline"
+msgstr ""
+
+#: medicare.php:3707
+msgid "Headline Size"
+msgstr ""
+
+#: medicare.php:3710 medicare.php:3822 medicare.php:3941 medicare.php:4012
+#: medicare.php:4133
+msgid "Medium"
+msgstr ""
+
+#: medicare.php:3712
+msgid "Extra large"
+msgstr ""
+
+#: medicare.php:3713
+msgid "Huge"
+msgstr ""
+
+#: medicare.php:3715 medicare.php:3828
+msgid "Dash"
+msgstr ""
+
+#: medicare.php:3721
+msgid "Dash Style"
+msgstr ""
+
+#: medicare.php:3723
+msgid "Normal color"
+msgstr ""
+
+#: medicare.php:3724
+msgid "Accent color"
+msgstr ""
+
+#: medicare.php:3725
+msgid "Alternate color"
+msgstr ""
+
+#: medicare.php:3727
+msgid "Subheadline"
+msgstr ""
+
+#: medicare.php:3743
+msgid "Testimonials"
+msgstr ""
+
+#: medicare.php:3743
+msgid "Testimonials container"
+msgstr ""
+
+#: medicare.php:3746
+msgid "Testimonial Item"
+msgstr ""
+
+#: medicare.php:3746
+msgid "Single testimonial item"
+msgstr ""
+
+#: medicare.php:3751
+msgid "Name"
+msgstr ""
+
+#: medicare.php:3752
+msgid "Job"
+msgstr ""
+
+#: medicare.php:3757
+msgid "Tabs"
+msgstr ""
+
+#: medicare.php:3757
+msgid "Tabs container"
+msgstr ""
+
+#: medicare.php:3772
+msgid "Tab Item"
+msgstr ""
+
+#: medicare.php:3772
+msgid "Tabs items"
+msgstr ""
+
+#: medicare.php:3777
+msgid "Accordion"
+msgstr ""
+
+#: medicare.php:3777
+msgid "Accordion container"
+msgstr ""
+
+#: medicare.php:3778
+msgid "Open first item initially"
+msgstr ""
+
+#: medicare.php:3796
+msgid "Accordion Item"
+msgstr ""
+
+#: medicare.php:3796
+msgid "Single accordion element"
+msgstr ""
+
+#: medicare.php:3803
+msgid "Service"
+msgstr ""
+
+#: medicare.php:3803
+msgid "Service element"
+msgstr ""
+
+#: medicare.php:3805 medicare.php:3855 medicare.php:3908 medicare.php:4113
+#: medicare.php:4115
+msgid "Icon"
+msgstr ""
+
+#: medicare.php:3806 medicare.php:4117
+msgid "Icon Type"
+msgstr ""
+
+#: medicare.php:3809 medicare.php:3921 medicare.php:3988 medicare.php:4120
+msgid "Filled"
+msgstr ""
+
+#: medicare.php:3810 medicare.php:3920 medicare.php:4121
+msgid "Outline"
+msgstr ""
+
+#: medicare.php:3812 medicare.php:4123
+msgid "Icon Color"
+msgstr ""
+
+#: medicare.php:3815 medicare.php:3933
+msgid "Accent"
+msgstr ""
+
+#: medicare.php:3816
+msgid "Alter"
+msgstr ""
+
+#: medicare.php:3818 medicare.php:4129
+msgid "Icon Size"
+msgstr ""
+
+#: medicare.php:3821 medicare.php:3939 medicare.php:4132
+msgid "Extra Small"
+msgstr ""
+
+#: medicare.php:3823 medicare.php:3942 medicare.php:4134
+msgid "Big"
+msgstr ""
+
+#: medicare.php:3849
+msgid "Google Maps"
+msgstr ""
+
+#: medicare.php:3849
+msgid "Google Maps with marker on specified coordinates"
+msgstr ""
+
+#: medicare.php:3851
+msgid "API key"
+msgstr ""
+
+#: medicare.php:3852
+msgid "Latitude"
+msgstr ""
+
+#: medicare.php:3853
+msgid "Longitude"
+msgstr ""
+
+#: medicare.php:3854
+msgid "Zoom (e.g. 14)"
+msgstr ""
+
+#: medicare.php:3856
+msgid "Height (e.g. 250px)"
+msgstr ""
+
+#: medicare.php:3857
+msgid "Map primary color"
+msgstr ""
+
+#: medicare.php:3858
+msgid "Map secondary color"
+msgstr ""
+
+#: medicare.php:3859
+msgid "Map water color"
+msgstr ""
+
+#: medicare.php:3860
+msgid "Custom map style array"
+msgstr ""
+
+#: medicare.php:3876
+msgid "Clients"
+msgstr ""
+
+#: medicare.php:3876
+msgid "Client container"
+msgstr ""
+
+#: medicare.php:3881
+msgid "Regular"
+msgstr ""
+
+#: medicare.php:3896
+msgid "Client"
+msgstr ""
+
+#: medicare.php:3896
+msgid "Individual client element"
+msgstr ""
+
+#: medicare.php:3905
+msgid "Button"
+msgstr ""
+
+#: medicare.php:3905
+msgid "Button with custom link"
+msgstr ""
+
+#: medicare.php:3910 medicare.php:4150
+msgid "Target window"
+msgstr ""
+
+#: medicare.php:3915 medicare.php:4155
+msgid "Parent"
+msgstr ""
+
+#: medicare.php:3918 medicare.php:3986
+msgid "Style"
+msgstr ""
+
+#: medicare.php:3922
+msgid "Borderless"
+msgstr ""
+
+#: medicare.php:3924
+msgid "Icon Position"
+msgstr ""
+
+#: medicare.php:3927
+msgid "Inline"
+msgstr ""
+
+#: medicare.php:3930 medicare.php:3985
+msgid "Color"
+msgstr ""
+
+#: medicare.php:3934
+msgid "Alternate"
+msgstr ""
+
+#: medicare.php:3937
+msgid "Size"
+msgstr ""
+
+#: medicare.php:3945
+msgid "Width"
+msgstr ""
+
+#: medicare.php:3948
+msgid "Full"
+msgstr ""
+
+#: medicare.php:3965
+msgid "Counter"
+msgstr ""
+
+#: medicare.php:3965
+msgid "Animated counter"
+msgstr ""
+
+#: medicare.php:3967
+msgid "Number"
+msgstr ""
+
+#: medicare.php:3981
+msgid "Percentage bar"
+msgstr ""
+
+#: medicare.php:3981
+msgid "Animated percentage bar"
+msgstr ""
+
+#: medicare.php:3984
+msgid "Percentage"
+msgstr ""
+
+#: medicare.php:3989
+msgid "Line"
+msgstr ""
+
+#: medicare.php:4006
+msgid "Slider container"
+msgstr ""
+
+#: medicare.php:4008
+msgid "Slider height"
+msgstr ""
+
+#: medicare.php:4010
+msgid "Auto"
+msgstr ""
+
+#: medicare.php:4015
+msgid "Auto Play Speed (e.g. 3000)"
+msgstr ""
+
+#: medicare.php:4016
+msgid "Hide Arrows"
+msgstr ""
+
+#: medicare.php:4021
+msgid "Hide Paging"
+msgstr ""
+
+#: medicare.php:4026
+msgid "Arrows position"
+msgstr ""
+
+#: medicare.php:4032
+msgid "Dots navigation"
+msgstr ""
+
+#: medicare.php:4035
+msgid "Below"
+msgstr ""
+
+#: medicare.php:4036
+msgid "Hide"
+msgstr ""
+
+#: medicare.php:4038
+msgid "If fade is selected, number of slides to show will be 1"
+msgstr ""
+
+#: medicare.php:4041
+msgid "Fade"
+msgstr ""
+
+#: medicare.php:4043
+msgid "Simple Arrows"
+msgstr ""
+
+#: medicare.php:4063
+msgid "Slider Item"
+msgstr ""
+
+#: medicare.php:4063
+msgid "Individual slide element"
+msgstr ""
+
+#: medicare.php:4073
+msgid "Separator"
+msgstr ""
+
+#: medicare.php:4073
+msgid "Horizontal separator"
+msgstr ""
+
+#: medicare.php:4113
+msgid "Single icon with link"
+msgstr ""
+
+#: medicare.php:4116 medicare.php:4359 medicare.php:4382
+msgid "Title"
+msgstr ""
+
+#: medicare.php:4125
+msgid "Default Color"
+msgstr ""
+
+#: medicare.php:4126
+msgid "Accent Color"
+msgstr ""
+
+#: medicare.php:4127
+msgid "Alternate Color"
+msgstr ""
+
+#: medicare.php:4137
+msgid "Icon Animation"
+msgstr ""
+
+#: medicare.php:4140
+msgid "Move from bottom"
+msgstr ""
+
+#: medicare.php:4141
+msgid "Move from left"
+msgstr ""
+
+#: medicare.php:4142
+msgid "Move from top"
+msgstr ""
+
+#: medicare.php:4144
+msgid "Icon Outline"
+msgstr ""
+
+#: medicare.php:4163
+msgid "Icon and images holder"
+msgstr ""
+
+#: medicare.php:4163
+msgid "Icon container"
+msgstr ""
+
+#: medicare.php:4165
+msgid "Position"
+msgstr ""
+
+#: medicare.php:4168
+msgid "Over previous element (half height)"
+msgstr ""
+
+#: medicare.php:4169
+msgid "Over previous element (full height)"
+msgstr ""
+
+#: medicare.php:4186
+msgid "Latest Posts"
+msgstr ""
+
+#: medicare.php:4186
+msgid "Recent posts"
+msgstr ""
+
+#: medicare.php:4188
+msgid "Number of Items"
+msgstr ""
+
+#: medicare.php:4189 medicare.php:4250
+msgid "Category Slug"
+msgstr ""
+
+#: medicare.php:4190
+msgid "Format"
+msgstr ""
+
+#: medicare.php:4192
+msgid "Horizontal"
+msgstr ""
+
+#: medicare.php:4193
+msgid "Vertical"
+msgstr ""
+
+#: medicare.php:4195 medicare.php:4283
+msgid "Post Type"
+msgstr ""
+
+#: medicare.php:4197 medicare.php:4285
+msgid "Blog"
+msgstr ""
+
+#: medicare.php:4198 medicare.php:4286 medicare.php:5251
+msgid "Portfolio"
+msgstr ""
+
+#: medicare.php:4200
+msgid "Show Excerpt"
+msgstr ""
+
+#: medicare.php:4205
+msgid "Show Date"
+msgstr ""
+
+#: medicare.php:4210
+msgid "Show Author"
+msgstr ""
+
+#: medicare.php:4215
+msgid "Show Comments"
+msgstr ""
+
+#: medicare.php:4220
+msgid "Show Category"
+msgstr ""
+
+#: medicare.php:4240
+msgid "Grid"
+msgstr ""
+
+#: medicare.php:4240
+msgid "Grid with recent posts"
+msgstr ""
+
+#: medicare.php:4242
+msgid "Number of items"
+msgstr ""
+
+#: medicare.php:4243 medicare.php:4334
+msgid "Columns"
+msgstr ""
+
+#: medicare.php:4245 medicare.php:4266 medicare.php:4323 medicare.php:4336
+msgid "3"
+msgstr ""
+
+#: medicare.php:4246 medicare.php:4267 medicare.php:4324 medicare.php:4337
+msgid "4"
+msgstr ""
+
+#: medicare.php:4247 medicare.php:4268 medicare.php:4325 medicare.php:4338
+msgid "5"
+msgstr ""
+
+#: medicare.php:4248 medicare.php:4269 medicare.php:4326 medicare.php:4339
+msgid "6"
+msgstr ""
+
+#: medicare.php:4251
+msgid "Category Filter"
+msgstr ""
+
+#: medicare.php:4256
+msgid "Grid Type"
+msgstr ""
+
+#: medicare.php:4258
+msgid "Classic"
+msgstr ""
+
+#: medicare.php:4259
+msgid "Tiled"
+msgstr ""
+
+#: medicare.php:4261 medicare.php:4318
+msgid "Grid Gap"
+msgstr ""
+
+#: medicare.php:4263 medicare.php:4320
+msgid "0"
+msgstr ""
+
+#: medicare.php:4264 medicare.php:4321
+msgid "1"
+msgstr ""
+
+#: medicare.php:4265 medicare.php:4322
+msgid "2"
+msgstr ""
+
+#: medicare.php:4270 medicare.php:4327
+msgid "7"
+msgstr ""
+
+#: medicare.php:4271 medicare.php:4328
+msgid "8"
+msgstr ""
+
+#: medicare.php:4272 medicare.php:4329
+msgid "9"
+msgstr ""
+
+#: medicare.php:4273 medicare.php:4330
+msgid "10"
+msgstr ""
+
+#: medicare.php:4274 medicare.php:4331
+msgid "15"
+msgstr ""
+
+#: medicare.php:4275 medicare.php:4332
+msgid "20"
+msgstr ""
+
+#: medicare.php:4277
+msgid "Tiled Format"
+msgstr ""
+
+#: medicare.php:4278
+msgid "Show Title in Tiles"
+msgstr ""
+
+#: medicare.php:4288
+msgid "Scroll Loading"
+msgstr ""
+
+#: medicare.php:4293
+msgid "Show Sticky Posts"
+msgstr ""
+
+#: medicare.php:4313
+msgid "Grid Gallery"
+msgstr ""
+
+#: medicare.php:4313
+msgid "Responsive grid gallery with lightbox."
+msgstr ""
+
+#: medicare.php:4315
+msgid "Images"
+msgstr ""
+
+#: medicare.php:4316
+msgid "Format (e.g. 21,11,12)"
+msgstr ""
+
+#: medicare.php:4341
+msgid "Links (comma-separated)"
+msgstr ""
+
+#: medicare.php:4357
+msgid "Price List"
+msgstr ""
+
+#: medicare.php:4357
+msgid "Price List element"
+msgstr ""
+
+#: medicare.php:4360
+msgid "Subtitle"
+msgstr ""
+
+#: medicare.php:4361
+msgid "Sticker Text"
+msgstr ""
+
+#: medicare.php:4362
+msgid "Currency"
+msgstr ""
+
+#: medicare.php:4363
+msgid "Price"
+msgstr ""
+
+#: medicare.php:4364
+msgid "Items"
+msgstr ""
+
+#: medicare.php:4380
+msgid "Dropdown"
+msgstr ""
+
+#: medicare.php:4380
+msgid "Dropdown with links"
+msgstr ""
+
+#: medicare.php:4383
+msgid "Dropdown Items"
+msgstr ""
+
+#: medicare.php:4383
+msgid "name;URL separated by new line."
+msgstr ""
+
+#: medicare.php:4399
+msgid "Working hours"
+msgstr ""
+
+#: medicare.php:4399
+msgid "Working hours with links"
+msgstr ""
+
+#: medicare.php:4401
+msgid "Working Hours"
+msgstr ""
+
+#: medicare.php:4401
+msgid ""
+"value;value;URL title,URL separated by new line (leave ; at the end to "
+"remove link)"
+msgstr ""
+
+#: medicare.php:4433
+msgid "BT Gallery"
+msgstr ""
+
+#: medicare.php:4434
+msgid "Gallery widget."
+msgstr ""
+
+#: medicare.php:4453
+msgid "Gallery"
+msgstr ""
+
+#: medicare.php:4457 medicare.php:4512 medicare.php:4627 medicare.php:4747
+#: medicare.php:4816 medicare.php:4975 medicare.php:5168
+msgid "Title:"
+msgstr ""
+
+#: medicare.php:4461
+msgid "List of image IDs (comma-separated):"
+msgstr ""
+
+#: medicare.php:4486
+msgid "BT Text Image"
+msgstr ""
+
+#: medicare.php:4487
+msgid "Text with image."
+msgstr ""
+
+#: medicare.php:4516
+msgid "Image IDs:"
+msgstr ""
+
+#: medicare.php:4520 medicare.php:4631
+msgid "Text:"
+msgstr ""
+
+#: medicare.php:4546
+msgid "BT Icon"
+msgstr ""
+
+#: medicare.php:4547
+msgid "Icon with text and link."
+msgstr ""
+
+#: medicare.php:4612
+msgid "Icon:"
+msgstr ""
+
+#: medicare.php:4635
+msgid "URL or slug:"
+msgstr ""
+
+#: medicare.php:4640
+msgid "Show in accent color"
+msgstr ""
+
+#: medicare.php:4643 medicare.php:4987
+msgid "Target:"
+msgstr ""
+
+#: medicare.php:4659
+msgid "CSS extra class:"
+msgstr ""
+
+#: medicare.php:4690
+msgid "BT Recent Posts"
+msgstr ""
+
+#: medicare.php:4691
+msgid "Recent posts with thumbnails."
+msgstr ""
+
+#: medicare.php:4743
+msgid "Recent Posts"
+msgstr ""
+
+#: medicare.php:4751
+msgid "Number of posts:"
+msgstr ""
+
+#: medicare.php:4777
+msgid "BT Recent Comments"
+msgstr ""
+
+#: medicare.php:4778
+msgid "Recent comments with avatars."
+msgstr ""
+
+#: medicare.php:4802
+msgid "by"
+msgstr ""
+
+#: medicare.php:4812
+msgid "Recent Comments"
+msgstr ""
+
+#: medicare.php:4820
+msgid "Number of comments:"
+msgstr ""
+
+#: medicare.php:4850
+msgid "BT Instagram"
+msgstr ""
+
+#: medicare.php:4851
+msgid "Recent Instagram images."
+msgstr ""
+
+#: medicare.php:4967
+msgid "Instagram"
+msgstr ""
+
+#: medicare.php:4979
+msgid "Instagram username:"
+msgstr ""
+
+#: medicare.php:4983
+msgid "Number of images:"
+msgstr ""
+
+#: medicare.php:5003
+msgid "Hashtag:"
+msgstr ""
+
+#: medicare.php:5007 medicare.php:5180
+msgid "Cache (minutes):"
+msgstr ""
+
+#: medicare.php:5107
+msgid "BT Twitter (deprecated)"
+msgstr ""
+
+#: medicare.php:5108
+msgid "Twitter feed."
+msgstr ""
+
+#: medicare.php:5158
+msgid "Twitter"
+msgstr ""
+
+#: medicare.php:5172
+msgid "Number of tweets:"
+msgstr ""
+
+#: medicare.php:5176
+msgid "Username  (or #hashtag):"
+msgstr ""
+
+#: medicare.php:5184
+msgid "Consumer key:"
+msgstr ""
+
+#: medicare.php:5188
+msgid "Consumer secret:"
+msgstr ""
+
+#: medicare.php:5192
+msgid "Access token:"
+msgstr ""
+
+#: medicare.php:5196
+msgid "Access token secret:"
+msgstr ""
+
+#: medicare.php:5252
+msgid "Portfolio Item"
+msgstr ""
+
+#: medicare.php:5261
+msgid "Portfolio Categories"
+msgstr ""
+
+#: section_anims.php:7
+msgid "Move to left | from right"
+msgstr ""
+
+#: section_anims.php:8
+msgid "Move to right | from left"
+msgstr ""
+
+#: section_anims.php:9
+msgid "Move to top | from bottom"
+msgstr ""
+
+#: section_anims.php:10
+msgid "Move to bottom | from top"
+msgstr ""
+
+#: section_anims.php:11
+msgid "Fade | from right"
+msgstr ""
+
+#: section_anims.php:12
+msgid "Fade | from left"
+msgstr ""
+
+#: section_anims.php:13
+msgid "Fade | from bottom"
+msgstr ""
+
+#: section_anims.php:14
+msgid "Fade | from top"
+msgstr ""
+
+#: section_anims.php:15
+msgid "Fade left | Fade right"
+msgstr ""
+
+#: section_anims.php:16
+msgid "Fade right | Fade left"
+msgstr ""
+
+#: section_anims.php:17
+msgid "Fade top | Fade bottom"
+msgstr ""
+
+#: section_anims.php:18
+msgid "Fade bottom | Fade top"
+msgstr ""
+
+#: section_anims.php:19
+msgid "Different easing | from right"
+msgstr ""
+
+#: section_anims.php:20
+msgid "Different easing | from left"
+msgstr ""
+
+#: section_anims.php:21
+msgid "Different easing | from bottom"
+msgstr ""
+
+#: section_anims.php:22
+msgid "Different easing | from top"
+msgstr ""
+
+#: section_anims.php:23
+msgid "Scale down | from right"
+msgstr ""
+
+#: section_anims.php:24
+msgid "Scale down | from left"
+msgstr ""
+
+#: section_anims.php:25
+msgid "Scale down | from bottom"
+msgstr ""
+
+#: section_anims.php:26
+msgid "Scale down | from top"
+msgstr ""
+
+#: section_anims.php:27
+msgid "Scale down | scale down"
+msgstr ""
+
+#: section_anims.php:28
+msgid "Scale up | scale up"
+msgstr ""
+
+#: section_anims.php:29
+msgid "Move to left | scale up"
+msgstr ""
+
+#: section_anims.php:30
+msgid "Move to right | scale up"
+msgstr ""
+
+#: section_anims.php:31
+msgid "Move to top | scale up"
+msgstr ""
+
+#: section_anims.php:32
+msgid "Move to bottom | scale up"
+msgstr ""
+
+#: section_anims.php:33
+msgid "Scale down | scale up"
+msgstr ""
+
+#: section_anims.php:34
+msgid "Glue left | from right"
+msgstr ""
+
+#: section_anims.php:35
+msgid "Glue right | from left"
+msgstr ""
+
+#: section_anims.php:36
+msgid "Glue bottom | from top"
+msgstr ""
+
+#: section_anims.php:37
+msgid "Glue top | from bottom"
+msgstr ""
+
+#: section_anims.php:38
+msgid "Flip right"
+msgstr ""
+
+#: section_anims.php:39
+msgid "Flip left"
+msgstr ""
+
+#: section_anims.php:40
+msgid "Flip top"
+msgstr ""
+
+#: section_anims.php:41
+msgid "Flip bottom"
+msgstr ""
+
+#: section_anims.php:42
+msgid "Push left | from right"
+msgstr ""
+
+#: section_anims.php:43
+msgid "Push right | from left"
+msgstr ""
+
+#: section_anims.php:44
+msgid "Push top | from bottom"
+msgstr ""
+
+#: section_anims.php:45
+msgid "Push bottom | from top"
+msgstr ""
+
+#: section_anims.php:46
+msgid "Push left | pull right"
+msgstr ""
+
+#: section_anims.php:47
+msgid "Push right | pull left"
+msgstr ""
+
+#: section_anims.php:48
+msgid "Push top | pull bottom"
+msgstr ""
+
+#: section_anims.php:49
+msgid "Push bottom | pull top"
+msgstr ""
+
+#: section_anims.php:50
+msgid "Fold left | from right"
+msgstr ""
+
+#: section_anims.php:51
+msgid "Fold right | from left"
+msgstr ""
+
+#: section_anims.php:52
+msgid "Fold top | from bottom"
+msgstr ""
+
+#: section_anims.php:53
+msgid "Fold bottom | from top"
+msgstr ""
+
+#: section_anims.php:54
+msgid "Move to right | unfold left"
+msgstr ""
+
+#: section_anims.php:55
+msgid "Move to left | unfold right"
+msgstr ""
+
+#: section_anims.php:56
+msgid "Move to bottom | unfold top"
+msgstr ""
+
+#: section_anims.php:57
+msgid "Move to top | unfold bottom"
+msgstr ""
+
+#: section_anims.php:58
+msgid "Room to left"
+msgstr ""
+
+#: section_anims.php:59
+msgid "Room to right"
+msgstr ""
+
+#: section_anims.php:60
+msgid "Room to top"
+msgstr ""
+
+#: section_anims.php:61
+msgid "Room to bottom"
+msgstr ""
+
+#: section_anims.php:62
+msgid "Cube to left"
+msgstr ""
+
+#: section_anims.php:63
+msgid "Cube to right"
+msgstr ""
+
+#: section_anims.php:64
+msgid "Cube to top"
+msgstr ""
+
+#: section_anims.php:65
+msgid "Cube to bottom"
+msgstr ""
+
+#: section_anims.php:66
+msgid "Carousel to left"
+msgstr ""
+
+#: section_anims.php:67
+msgid "Carousel to right"
+msgstr ""
+
+#: section_anims.php:68
+msgid "Carousel to top"
+msgstr ""
+
+#: section_anims.php:69
+msgid "Carousel to bottom"
+msgstr ""
+
+#: section_anims.php:70
+msgid "Sides"
+msgstr ""
+
+#: section_anims.php:71
+msgid "Slide"
+msgstr ""
