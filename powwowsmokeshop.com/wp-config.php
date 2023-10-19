@@ -19,23 +19,30 @@
  */
 
 // ** Database settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'powwowsmokeshop' );
-
-/** Database username */
-define( 'DB_USER', 'steve_powwowsmokeshop' );
-
-/** Database password */
-define( 'DB_PASSWORD', 'september51995' );
-
-/** Database hostname */
-define( 'DB_HOST', 'localhost' );
+if(strstr($_SERVER['SERVER_NAME'], 'powwowsmokeshop.com.test')) {
+    define( 'DB_NAME', 'powwowsmokeshop.com' );
+    define( 'DB_USER', 'root' );
+    define( 'DB_PASSWORD', '' );
+    define( 'DB_HOST', 'localhost' );
+} else {
+    define( 'DB_NAME', 'powwowsmokeshop' );
+    define( 'DB_USER', 'steve_powwowsmokeshop' );
+    define( 'DB_PASSWORD', 'september51995' );
+    define( 'DB_HOST', 'localhost' );
+}
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+if ( !defined('WP_CLI') ) {
+    define( 'WP_SITEURL', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] );
+    define( 'WP_HOME',    $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] );
+}
+
+
 
 /**#@+
  * Authentication unique keys and salts.
@@ -48,14 +55,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'AZXxBORyQvzSQYn1ACm9nxOx4AiZ4LbD0CBfIAGMNwEABzmWRqWqlCYwB7dlrBOy' );
+define( 'SECURE_AUTH_KEY',  'YeCTWNQtJpHpYC2ivBdygNU07rx7x8lzoE0xnd4pipT8CA7o9HfllAsNFjByt5DI' );
+define( 'LOGGED_IN_KEY',    '3mxsTGz645voDR7Ju71VxrwmjNcR3f0w7lt9HvjIMnqn3ccv6Dp3jzmb3La4WBdY' );
+define( 'NONCE_KEY',        'sTCDSCqviCssTJvGrtITTCmrbpf2tkCYxkIp72HCcbxc9wMfiABd4iutuylLHG4F' );
+define( 'AUTH_SALT',        'Vg4Sfc88BPN9VO0fQfYdnEMnda6MmBK0oN0dTshCCmaBDBe6rnrSHoi9cN0g9tiZ' );
+define( 'SECURE_AUTH_SALT', 'oCt7DMPJT20NXTNPg2fyRHckfVUweSSkfgB1HUSD4wN10GHWAahxlu8MT3WKzgxj' );
+define( 'LOGGED_IN_SALT',   '9rYYBc8fF92PVXx2IsudGBVYMULucY22P7Sr4OcJuU8xpD3SaBXtcQ9CN0jmczfi' );
+define( 'NONCE_SALT',       'h5VLK1mu0M1ATQjj3bVHoSjKuFLY4IP0LfOByU2pYWdv6yLmW65AUU75UUKeJgYq' );
 
 /**#@-*/
 
