@@ -1745,4 +1745,10 @@ wordpress menu selections:
     max-width: 1200px;
     margin: 0 auto;
   }
+  .container-full {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: -150px;
+  }
 }
