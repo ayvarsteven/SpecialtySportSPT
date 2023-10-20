@@ -9,7 +9,7 @@
 <section id="hero-1426">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Test Title</span>
+            <span class="cs-topper">McAllens Premier Smoke and Vape Shop</span>
             <h1 class="cs-title">Elevate Your Experience with Premium Smoke Accessories</h1>
             <p class="cs-text">Welcome to Pow Wow Smoke Shop your one-stop shop for premium smoking essentials. We offer a curated selection of high-quality products, including glass pipes, vaporizers, e-liquids, and more. Elevate your smoking experience with us. Explore our collection now!</p>
             <div class="cs-button-group">
