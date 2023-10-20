@@ -25,6 +25,22 @@
   --fs-400: 1rem;
 
   --section-padding: 10rem;
+
+  /* ----------------------- Code Stitch - Global Styles ---------------------- */
+  --primary: #ff6a3e;
+  --primaryLight: #ffba43;
+  --secondary: #ffba43;
+  --secondaryLight: #ffba43;
+  --headerColor: #1a1a1a;
+  --bodyTextColor: #4e4b66;
+  --bodyTextColorWhite: #fafbfc;
+  /* 13px - 16px */
+  --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+  /* 31px - 49px */
+  --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+  --bodyFontSize: 1rem;
+  /* 60px - 100px top and bottom */
+  --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
 }
 
 @media (min-width: 40em) {
@@ -44,34 +60,13 @@ video {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1,
 h2,
 h3 {
   margin-top: 0;
-}
-
-section {
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
-}
-
-.container {
-  width: 85%;
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
-.col {
-  width: 100%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -86,6 +81,43 @@ section {
 
 p {
   /* width: clamp(45ch, 50%, 75ch); */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Code Stitch                                */
+/* -------------------------------------------------------------------------- */
+
+.cs-topper {
+  font-size: var(--topperFontSize);
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-align: inherit;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.cs-title {
+  font-size: var(--headerFontSize);
+  font-weight: 900;
+  line-height: 1.2em;
+  text-align: inherit;
+  max-width: 43.75rem;
+  margin: 0 0 1rem 0;
+  color: var(--headerColor);
+  position: relative;
+}
+
+.cs-text {
+  font-size: var(--bodyFontSize);
+  line-height: 1.5em;
+  text-align: inherit;
+  width: 100%;
+  max-width: 40.625rem;
+  margin: 0;
+  color: var(--bodyTextColor);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -187,3 +219,28 @@ wordpress menu selections:
   - .sub-menu
   - .top-bar (menu must be registered in functions.php
  */
+
+/* 600px or bigger */
+@media (min-width: 600px) {
+  .section {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    width: 85%;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .col {
+    width: 100%;
+  }
+}
