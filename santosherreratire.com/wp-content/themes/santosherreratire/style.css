@@ -3,8 +3,160 @@ Theme Name: My Starter Theme
 Author: Steven Ayvar
 **/
 
+/* -------------------------------------------------------------------------- */
+/*                                 Metropolis                                 */
+/* -------------------------------------------------------------------------- */
+
+/* @font-face {
+  font-family: "Metropolis";
+  font-weight: 900;
+  src:
+    url(/fonts/metropolis-black-webfont.woff2) format("woff2"),
+    url(/fonts/metropolis-black-webfont.woff) format("woff");
+}
+
 @font-face {
-  font-family: Metropolis;
-  src: url(C:\laragon\www\staging_specialtysportspt\santosherreratire.com\wp-content\themes\santosherreratire\fonts\metropolis-black-webfont.woff);
-  font-weight: normal;
+  font-family: "Metropolis";
+  font-weight: 700;
+  src:
+    url(/fonts/metropolis-bold-webfont.woff2) format("woff2"),
+    url(/fonts/metropolis-bold-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 500;
+  src:
+    url(/fonts/metropolis-regular-webfont.woff2) format("woff2"),
+    url(/fonts/metropolis-regular-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 300;
+  src:
+    url(/fonts/metropolis-light-webfont.woff2) format("woff2"),
+    url(/fonts/metropolis-light-webfont.woff) format("woff");
+} */
+
+/* -------------------------------------------------------------------------- */
+/*                                 Tactic Sans                                */
+/* -------------------------------------------------------------------------- */
+
+/* @font-face {
+  font-family: "TacticSans";
+  font-weight: 900;
+  src:
+    url(/fonts/tacticsans-blk-webfont.woff2) format("woff2"),
+    url(/fonts/tacticsans-blk-webfont.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "TacticSans";
+  font-weight: 700;
+  src:
+    url(/fonts/tacticsans-blk-webfont.woff2) format("woff2"),
+    url(/fonts/tacticsans-blk-webfont.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "TacticSansExtended";
+  font-weight: 900;
+  src:
+    url(/fonts/tacticsansexd-blk-webfont.woff2) format("woff2"),
+    url(/fonts/tacticsansexd-blk-webfont.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "TacticSansExtended";
+  font-weight: 700;
+  src:
+    url(/fonts/tacticsansexd-bld-webfont.woff2) format("woff2"),
+    url(/fonts/tacticsansexd-bld-webfont.woff2) format("woff");
+} */
+
+/* ------------------------- added through wordpress ------------------------ */
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 900;
+  src:
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-black-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-black-webfont.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 700;
+  src:
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-bold-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-bold-webfont.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 500;
+  src:
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-regular-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-regular-webfont.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 300;
+  src:
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-light-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/metropolis-light-webfont.woff)
+      format("woff");
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Tactic Sans                                */
+/* -------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "TacticSansExtended";
+  font-weight: 900;
+  src:
+    url(http://sanosherreratire.com.test/wp-content/uploads/2023/10/tacticsansexd-blk-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/tacticsansexd-blk-webfont.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "TacticSansExtended";
+  font-weight: 700;
+  src:
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/tacticsansexd-bld-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/tacticsansexd-bld-webfont.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "TacticSans";
+  font-weight: 900;
+  src:
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/tacticsans-blk-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/tacticsans-blk-webfont.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: "TacticSans";
+  font-weight: 700;
+  src:
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/tacticsans-bld-webfont.woff2)
+      format("woff2"),
+    url(http://santosherreratire.com.test/wp-content/uploads/2023/10/tacticsans-bld-webfont.woff)
+      format("woff");
 }

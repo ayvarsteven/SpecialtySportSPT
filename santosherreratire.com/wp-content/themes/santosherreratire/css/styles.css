@@ -61,13 +61,16 @@ video {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Metropolis", sans-serif;
+  font-family: "Metropolis";
+  font-weight: 300;
 }
 
 h1,
 h2,
 h3 {
   margin-top: 0;
+  font-family: "TacticSansExtended";
+  font-weight: 900;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -81,7 +84,7 @@ h3 {
 }
 
 p {
-  /* width: clamp(45ch, 50%, 75ch); */
+  /* width: clamp(); */
 }
 
 /* -------------------------------------------------------------------------- */
