@@ -75,19 +75,9 @@ section {
 }
 
 .container {
-  width: 85%;
+  width: 95%;
   max-width: 750px;
   margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
-.col {
-  width: 100%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -1722,6 +1712,10 @@ wordpress menu selections:
 /*                                     Map                                    */
 /* -------------------------------------------------------------------------- */
 
+.maps-container {
+  padding: 1rem;
+}
+
 .google-maps {
   position: relative;
   padding-bottom: 75%;
@@ -1736,3 +1730,19 @@ wordpress menu selections:
   width: 100% !important;
   height: 100% !important;
 }
+
+/* @media only screen and (min-width: 700px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .col {
+    width: 100%;
+  }
+  .container {
+    width: 85%;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+} */

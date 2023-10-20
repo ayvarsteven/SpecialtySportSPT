@@ -307,11 +307,22 @@
 <!-- ============================================ -->
 <!--                    Map                       -->
 <!-- ============================================ -->
-
-<div class="google-maps" id="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57245.988370568215!2d-98.26313612762492!3d26.265743604309645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8665a71519b46029%3A0xe190b8d89e6421fb!2sPow%20Wow%20Tobacco%20Accessories%20%26%20Nvlts!5e0!3m2!1sen!2sus!4v1697597602777!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </iframe>
-</div>
+<section class="maps-container ">
+    <div class="container row">
+        <div class="mcallen col">
+            <h3>McAllen</h3>
+            <div class="google-maps" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57245.988370568215!2d-98.26313612762492!3d26.265743604309645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8665a71519b46029%3A0xe190b8d89e6421fb!2sPow%20Wow%20Tobacco%20Accessories%20%26%20Nvlts!5e0!3m2!1sen!2sus!4v1697597602777!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </iframe>
+            </div>
+        </div>
+        <div class="mission col">
+            <h3>Mission</h3>
+            <div class="google-maps" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.196784487705!2d-98.27979912507588!3d26.22279478939978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8665a7b21831424b%3A0x6e3509d45ca89e1c!2sPOW%20WOW%20SMOKE%20SHOP!5e0!3m2!1sen!2sus!4v1697788439261!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
                                 
 
 <!-- ============================================ -->
