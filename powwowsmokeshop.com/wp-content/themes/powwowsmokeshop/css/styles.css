@@ -75,7 +75,7 @@ section {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   max-width: 750px;
   margin: 0 auto;
 }
@@ -1731,7 +1731,7 @@ wordpress menu selections:
   height: 100% !important;
 }
 
-/* @media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
   .row {
     display: flex;
     justify-content: space-between;
@@ -1742,7 +1742,7 @@ wordpress menu selections:
   }
   .container {
     width: 85%;
-    max-width: 750px;
+    max-width: 1200px;
     margin: 0 auto;
   }
-} */
+}
