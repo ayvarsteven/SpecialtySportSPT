@@ -6,19 +6,19 @@
                     © 2022 Copyright
                 </li>
                 <li class="cs-li">
-                    <a href="" class="cs-link">Home</a>
+                    <a href="#home" class="cs-link">Home</a>
                 </li>
                 <li class="cs-li">
-                    <a href="" class="cs-link">About</a>
+                    <a href="#about" class="cs-link">About</a>
                 </li>
                 <li class="cs-li">
-                    <a href="" class="cs-link">Services</a>
+                    <a href="#products" class="cs-link">Products</a>
                 </li>
                 <li class="cs-li">
-                    <a href="" class="cs-link">Gallery</a>
+                    <a href="#map" class="cs-link">Map</a>
                 </li>
                 <li class="cs-li">
-                    <a href="" class="cs-link">Contact</a>
+                    <a href="#powwow_contact-info" class="cs-link">Contact</a>
                 </li>
             </ul>
          </div>
