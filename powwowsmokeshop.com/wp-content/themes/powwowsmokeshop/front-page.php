@@ -93,13 +93,13 @@
         <li class="cs-item">
         <a href="" class="cs-link">
             <h3 class="cs-h3">
-            <span class="cs-span">Vaporizers</span>
+            <span class="cs-span">Adult Novelties</span>
             </h3>
         </a>
         <picture class="cs-background">
             <img
             decoding="async"
-            src="<?php echo get_theme_file_uri( 'img/cigars-1.jpg' )?>"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/adult.png' )?>"
             alt="construction"
             width="305"
             height="305"
@@ -110,13 +110,13 @@
         <li class="cs-item">
         <a href="" class="cs-link">
             <h3 class="cs-h3">
-            <span class="cs-span">E-Liquid</span>
+            <span class="cs-span">Art</span>
             </h3>
         </a>
         <picture class="cs-background">
             <img
             decoding="async"
-            src="<?php echo get_theme_file_uri( 'img/eliquid-3.jpg' )?>"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/art.png' )?>"
             alt="construction"
             width="305"
             height="305"
@@ -126,12 +126,12 @@
         </li>
         <li class="cs-item">
         <a href="" class="cs-link">
-            <h3 class="cs-h3"><span class="cs-span">Water</span> Pipes</h3>
+            <h3 class="cs-h3"><span class="cs-span">Bongs</h3>
         </a>
         <picture class="cs-background">
             <img
             decoding="async"
-            src="<?php echo get_theme_file_uri( 'img/water-pipe.jpg' )?>"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/bongs.png' )?>"
             alt="construction"
             width="305"
             height="305"
@@ -144,13 +144,13 @@
         <li class="cs-item">
         <a href="" class="cs-link">
             <h3 class="cs-h3">
-            <span class="cs-span">Hookah</span>
+            <span class="cs-span">CD's</span>
             </h3>
         </a>
         <picture class="cs-background">
             <img
             decoding="async"
-            src="<?php echo get_theme_file_uri( 'img/hookah.jpg' )?>"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/cds.png' )?>"
             alt="construction"
             width="305"
             height="305"
@@ -161,13 +161,13 @@
         <li class="cs-item">
         <a href="" class="cs-link">
             <h3 class="cs-h3">
-            <span class="cs-span">Cigars</span>
+            <span class="cs-span">Clothing</span>
             </h3>
         </a>
         <picture class="cs-background">
             <img
             decoding="async"
-            src="<?php echo get_theme_file_uri( 'img/cigars-1.jpg' )?>"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/clothing.png' )?>"
             alt="construction"
             width="305"
             height="305"
@@ -178,13 +178,119 @@
         <li class="cs-item">
         <a href="" class="cs-link">
             <h3 class="cs-h3">
-            <span class="cs-span">Novelties</span>
+            <span class="cs-span">Detox</span>
             </h3>
         </a>
         <picture class="cs-background">
             <img
             decoding="async"
-            src="<?php echo get_theme_file_uri( 'img/novelties.jpg' )?>"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/detox.png' )?>"
+            alt="construction"
+            width="305"
+            height="305"
+            aria-hidden="true"
+            />
+        </picture>
+        </li>
+    </ul>
+    <ul class="cs-card-group">
+        <li class="cs-item">
+        <a href="" class="cs-link">
+            <h3 class="cs-h3">
+            <span class="cs-span">DVD's</span>
+            </h3>
+        </a>
+        <picture class="cs-background">
+            <img
+            decoding="async"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/dvd.png' )?>"
+            alt="construction"
+            width="305"
+            height="305"
+            aria-hidden="true"
+            />
+        </picture>
+        </li>
+        <li class="cs-item">
+        <a href="" class="cs-link">
+            <h3 class="cs-h3">
+            <span class="cs-span">grinders</span>
+            </h3>
+        </a>
+        <picture class="cs-background">
+            <img
+            decoding="async"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/grinders.png' )?>"
+            alt="construction"
+            width="305"
+            height="305"
+            aria-hidden="true"
+            />
+        </picture>
+        </li>
+        <li class="cs-item">
+        <a href="" class="cs-link">
+            <h3 class="cs-h3">
+            <span class="cs-span">Jerseys</span>
+            </h3>
+        </a>
+        <picture class="cs-background">
+            <img
+            decoding="async"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/jerseys.png' )?>"
+            alt="construction"
+            width="305"
+            height="305"
+            aria-hidden="true"
+            />
+        </picture>
+        </li>
+    </ul>
+    <ul class="cs-card-group">
+        <li class="cs-item">
+        <a href="" class="cs-link">
+            <h3 class="cs-h3">
+            <span class="cs-span">Masks</span>
+            </h3>
+        </a>
+        <picture class="cs-background">
+            <img
+            decoding="async"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/mask.png' )?>"
+            alt="construction"
+            width="305"
+            height="305"
+            aria-hidden="true"
+            />
+        </picture>
+        </li>
+        <li class="cs-item">
+        <a href="" class="cs-link">
+            <h3 class="cs-h3">
+            <span class="cs-span">Nitro</span>
+            </h3>
+        </a>
+        <picture class="cs-background">
+            <img
+            decoding="async"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/nitro.png' )?>"
+            alt="construction"
+            width="305"
+            height="305"
+            aria-hidden="true"
+            />
+        </picture>
+        </li>
+        <li class="cs-item">
+        <a href="" class="cs-link">
+            <h3 class="cs-h3">
+            <span class="cs-span">Visit Today</span>
+            </h3>
+        </a>
+        <picture class="cs-background">
+            <img
+            decoding="async"
+            src="<?php echo get_theme_file_uri( 'img/powwow_pics/store.png' )?>"
             alt="construction"
             width="305"
             height="305"
