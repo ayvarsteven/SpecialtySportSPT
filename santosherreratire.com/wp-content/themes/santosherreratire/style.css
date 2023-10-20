@@ -2,3 +2,9 @@
 Theme Name: My Starter Theme
 Author: Steven Ayvar
 **/
+
+@font-face {
+  font-family: Metropolis;
+  src: url(C:\laragon\www\staging_specialtysportspt\santosherreratire.com\wp-content\themes\santosherreratire\fonts\metropolis-black-webfont.woff);
+  font-weight: normal;
+}
