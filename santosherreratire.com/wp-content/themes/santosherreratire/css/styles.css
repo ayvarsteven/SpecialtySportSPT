@@ -931,8 +931,13 @@ html {
     background-color: #fff;
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: end;
   }
   #h-services-143 .cs-item {
+    align-self: start;
     list-style: none;
     margin: 0 auto 2rem;
     width: 100%;

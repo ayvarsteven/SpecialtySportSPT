@@ -8,9 +8,9 @@
 
 <section id="hero-143">
     <div class="cs-container">
-        <h1 class="cs-title">Truck Tire Sales & Services in McAllen, TX</h1>
+        <h1 class="cs-title">Truck Tire Sales & Services in Weslaco, TX</h1>
         <p class="cs-text">
-          Santos & Herrera offers the best services for truck tires throughout the McAllen, Texas. Save more on new and used tires and repairs today.
+          Santos & Herrera offers the best services for truck tires throughout the Weslaco, Texas. Save more on new and used tires and repairs today.
         </p>
         <a href="<?php echo site_url('/contact') ?>" class="cs-button-solid">Contact Us</a>
     </div>
@@ -34,16 +34,16 @@
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.digitaloceanspaces.com/Hero/toolbox.svg"
+              src="<?php echo get_theme_file_uri( 'img/money-saving.png' ) ?>"
               alt="icon"
               width="52"
               height="52"
               aria-hidden="true"
             />
           </picture>
-          <h2 class="cs-title">Full Kitchen Remodel</h2>
+          <h2 class="cs-title">Truck Tire Sales</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Top brands at affordable prices. Our helpful sales staff will walk you through any questions or concerns that you have.
           </p>
         </li>
         <li class="cs-item">
@@ -51,16 +51,16 @@
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.digitaloceanspaces.com/Hero/buildings.svg"
+              src="<?php echo get_theme_file_uri( 'img/spare-tire.png' ) ?>"
               alt="icon"
               width="52"
               height="52"
               aria-hidden="true"
             />
           </picture>
-          <h2 class="cs-title">Exterior Repairs</h2>
+          <h2 class="cs-title">Truck Tire Repair</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            We offer a broad range of truck tire repairs that last, offering you better solutions. 
           </p>
         </li>
         <li class="cs-item">
@@ -68,16 +68,16 @@
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.digitaloceanspaces.com/Hero/gear.svg"
+              src="<?php echo get_theme_file_uri( 'img/wheel.png' ) ?>"
               alt="icon"
               width="52"
               height="52"
               aria-hidden="true"
             />
           </picture>
-          <h2 class="cs-title">Utility Maintenance</h2>
+          <h2 class="cs-title">New Truck Tires</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Visit us today for your affordable selection of new truck tires in Weslaco, TX.
           </p>
         </li>
         <li class="cs-item">
@@ -85,16 +85,33 @@
             <img
               loading="lazy"
               decoding="async"
-              src="https://csimg.nyc3.digitaloceanspaces.com/Hero/user.svg"
+              src="<?php echo get_theme_file_uri( 'img/stacked-tires.png' ) ?>"
               alt="icon"
               width="52"
               height="52"
               aria-hidden="true"
             />
           </picture>
-          <h2 class="cs-title">Design Consultation</h2>
+          <h2 class="cs-title">Used Truck Tires</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Santos & Herrera Tire Shop only sells tires that you can trust. We inspect each one for safety concerns before you buy
+          </p>
+        </li>
+        <li class="cs-item">
+          <picture class="cs-icon">
+            <img
+              loading="lazy"
+              decoding="async"
+              src="<?php echo get_theme_file_uri( 'img/tire.png' ) ?>"
+              alt="icon"
+              width="52"
+              height="52"
+              aria-hidden="true"
+            />
+          </picture>
+          <h2 class="cs-title">Trailer Tires</h2>
+          <p class="cs-text">
+            We carry an extensive range of quality tires, including medium and heavy duty trailer, truck, and RV tires.
           </p>
         </li>
       </ul>
@@ -200,7 +217,7 @@
         </div>
         <div class="cs-content">
           <span class="cs-topper">Why Choose Us</span>
-          <h2 class="cs-title">Safety is Our First & Main Priority</h2>
+          <h2 class="cs-title">New and Used Truck Tires in Weslaco, TX</h2>
           <p class="cs-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
             possimus accusantium quod voluptatum mollitia unde pariatur nam
