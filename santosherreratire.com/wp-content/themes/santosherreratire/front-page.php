@@ -8,18 +8,18 @@
 
 <section id="hero-143">
     <div class="cs-container">
-        <h1 class="cs-title">Construction & Maintenance Experts in New York City</h1>
+        <h1 class="cs-title">Truck Tire Sales & Services in McAllen, TX</h1>
         <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. At quis donec eget tellus turpis imperdiet aenean libero. 
+          Santos & Herrera offers the best services for truck tires throughout the McAllen, Texas. Save more on new and used tires and repairs today.
         </p>
-        <a href="" class="cs-button-solid">Request Appointment</a>
+        <a href="<?php echo site_url('/contact') ?>" class="cs-button-solid">Contact Us</a>
     </div>
 
     <!-- Background Image -->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen-m.jpg">
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+        <source media="(max-width: 600px)" srcset="<?php echo get_theme_file_uri( 'img/trailer-tire-close-up_221049051_Preview.jpeg' ) ?>">
+        <source media="(min-width: 601px)" srcset="<?php echo get_theme_file_uri( 'img/trailer-tire-close-up_221049051_Preview.jpeg' ) ?>">
+        <img loading="lazy" decoding="async" src="<?php echo get_theme_file_uri( 'img/trailer-tire-close-up_221049051_Preview.jpeg' ) ?>" alt="trailer tires" width="2250" height="1500" aria-hidden="true">
     </picture>
 </section>
 
