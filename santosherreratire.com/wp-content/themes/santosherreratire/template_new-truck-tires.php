@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: New Truck Tires
+*/
+?>
+
 <?php get_header(); ?>
 
 <!-- ============================================ -->

@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Truck Tire Repair
+*/
+?>
+
 <?php get_header(); ?>
 
 <!-- ============================================ -->

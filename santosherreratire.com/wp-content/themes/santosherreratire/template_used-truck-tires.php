@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Used Truck Tires
+*/
+?>
+
 <?php get_header(); ?>
 
 <!-- ============================================ -->

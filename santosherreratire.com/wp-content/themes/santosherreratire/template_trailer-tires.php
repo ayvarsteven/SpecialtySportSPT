@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Trailer Tires
+*/
+?>
+
 <?php get_header(); ?>
 
 <!-- ============================================ -->

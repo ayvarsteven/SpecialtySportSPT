@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Truck Tire Sales
+*/
+?>
+
 <?php get_header(); ?>
 
 <!-- ============================================ -->
