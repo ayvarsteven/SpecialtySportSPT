@@ -1,5 +1,5 @@
 
-<?php  get_header(); ?>
+<?php get_header(); ?>
 
 
     <!-- ----------------------------------------------------------------------- -->
@@ -12,14 +12,22 @@
         <p class="cs-text">
           Santos & Herrera offers the best services for truck tires throughout the Weslaco, Texas. Save more on new and used tires and repairs today.
         </p>
-        <a href="<?php echo site_url('/contact') ?>" class="cs-button-solid">Contact Us</a>
+        <a href="<?php echo site_url(
+            "/contact"
+        ); ?>" class="cs-button-solid">Contact Us</a>
     </div>
 
     <!-- Background Image -->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="<?php echo get_theme_file_uri( 'img/trailer-tire-close-up_221049051_Preview.jpeg' ) ?>">
-        <source media="(min-width: 601px)" srcset="<?php echo get_theme_file_uri( 'img/trailer-tire-close-up_221049051_Preview.jpeg' ) ?>">
-        <img loading="lazy" decoding="async" src="<?php echo get_theme_file_uri( 'img/trailer-tire-close-up_221049051_Preview.jpeg' ) ?>" alt="trailer tires" width="2250" height="1500" aria-hidden="true">
+        <source media="(max-width: 600px)" srcset="<?php echo get_theme_file_uri(
+            "img/trailer-tire-close-up_221049051_Preview.jpeg"
+        ); ?>">
+        <source media="(min-width: 601px)" srcset="<?php echo get_theme_file_uri(
+            "img/trailer-tire-close-up_221049051_Preview.jpeg"
+        ); ?>">
+        <img loading="lazy" decoding="async" src="<?php echo get_theme_file_uri(
+            "img/trailer-tire-close-up_221049051_Preview.jpeg"
+        ); ?>" alt="trailer tires" width="2250" height="1500" aria-hidden="true">
     </picture>
 </section>
 
@@ -34,7 +42,7 @@
             <img
               loading="lazy"
               decoding="async"
-              src="<?php echo get_theme_file_uri( 'img/money-saving.png' ) ?>"
+              src="<?php echo get_theme_file_uri("img/money-saving.png"); ?>"
               alt="icon"
               width="52"
               height="52"
@@ -51,7 +59,7 @@
             <img
               loading="lazy"
               decoding="async"
-              src="<?php echo get_theme_file_uri( 'img/spare-tire.png' ) ?>"
+              src="<?php echo get_theme_file_uri("img/spare-tire.png"); ?>"
               alt="icon"
               width="52"
               height="52"
@@ -68,7 +76,7 @@
             <img
               loading="lazy"
               decoding="async"
-              src="<?php echo get_theme_file_uri( 'img/wheel.png' ) ?>"
+              src="<?php echo get_theme_file_uri("img/wheel.png"); ?>"
               alt="icon"
               width="52"
               height="52"
@@ -85,7 +93,7 @@
             <img
               loading="lazy"
               decoding="async"
-              src="<?php echo get_theme_file_uri( 'img/stacked-tires.png' ) ?>"
+              src="<?php echo get_theme_file_uri("img/stacked-tires.png"); ?>"
               alt="icon"
               width="52"
               height="52"
@@ -102,7 +110,7 @@
             <img
               loading="lazy"
               decoding="async"
-              src="<?php echo get_theme_file_uri( 'img/tire.png' ) ?>"
+              src="<?php echo get_theme_file_uri("img/tire.png"); ?>"
               alt="icon"
               width="52"
               height="52"
@@ -219,22 +227,20 @@
           <span class="cs-topper">Why Choose Us</span>
           <h2 class="cs-title">New and Used Truck Tires in Weslaco, TX</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            possimus accusantium quod voluptatum mollitia unde pariatur nam
-            ipsum provident blanditiis.
+          Some drivers prefer to buy a set of new tires and forget about maintenance needs. Others want a more affordable price upfront until they can replace them with brand-new tires. <br></br>
+
+          Before you pay more at a franchised tire retailer, see our best selection and save. We carry only the best new and used truck tires around, all at lower costs. <br></br>
+
+          No matter what type of tire buyer you are, we can help you save more on services. Visit our store today and find the best selection of new and used tires, including:
           </p>
           <ul class="cs-list">
-            <li class="cs-li">We handle all makes and models</li>
-            <li class="cs-li">
-              We are endorsed by the local trading standards office
-            </li>
-            <li class="cs-li">
-              All our technicians are equipped with the latest portable
-            </li>
-            <li class="cs-li">
-              Proven results for setting exceptional standards
-            </li>
-            <li class="cs-li">Same day service for most repairs</li>
+            <li class="cs-li">Uniroyal</li>
+            <li class="cs-li">Firestone</li>
+            <li class="cs-li">Fallen</li>
+            <li class="cs-li">Koryo</li>
+            <li class="cs-li">Inspect Used Tires</li>
+            <li class="cs-li">Flat Tire Replacements</li>
+            <li class="cs-li">Large Brand Selection</li>
           </ul>
           <a class="cs-link" href="tel:555-555-0234">
             <picture class="cs-wrapper">
@@ -250,7 +256,7 @@
             </picture>
             <div class="cs-info">
               <span class="cs-header">Call Anytime</span>
-              <span class="cs-link-content">(+123) 5462 3257</span>
+              <span class="cs-link-content">(956) 968-9093</span>
             </div>
           </a>
         </div>
