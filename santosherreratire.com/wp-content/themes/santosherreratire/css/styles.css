@@ -21,7 +21,7 @@ img {
   --ff-body: "Metropolis", sans-serif;
   --ff-heading: "", sans-serif;
 
-  --clr-primary-400: hsl(60 100% 50%);
+  --clr-primary-400: #ec1e2f;
   --clr-neutral-900: hsl(0 0% 0%);
   --clr-neutral-100: hsl(0 0% 100%);
 
@@ -40,9 +40,9 @@ img {
   --section-padding: 10rem;
 
   /* ----------------------- Code Stitch - Global Styles ---------------------- */
-  --primary: #ff6a3e;
+  --primary: #ec1e2f;
   --primaryLight: #ffba43;
-  --secondary: #ffba43;
+  --secondary: #1b9bde;
   --secondaryLight: #ffba43;
   --headerColor: #1a1a1a;
   --bodyTextColor: #4e4b66;
