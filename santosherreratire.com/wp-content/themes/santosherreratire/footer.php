@@ -12,7 +12,11 @@
           <div class="cs-logo-wrapper">
             <a href="" class="cs-logo">
               <img
-                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fcodestitch-white.svg"
+                src="
+                  <?php echo get_theme_file_uri(
+                      "img/santos-and-herrera-logo_solid.png"
+                  ); ?>
+                "
                 alt="logo"
                 aria-hidden="true"
                 loading="lazy"
@@ -27,30 +31,49 @@
               <span class="cs-header">Quick Links</span>
             </li>
             <li class="cs-li">
-              <a href="" class="cs-link">Services</a>
+              <a href="
+                  <?php echo site_url("/home"); ?>
+              " class="cs-link">Home</a>
             </li>
             <li class="cs-li">
-              <a href="" class="cs-link">Contact us</a>
+              <a href="
+                  <?php echo site_url("/about"); ?>
+              " class="cs-link">About</a>
             </li>
             <li class="cs-li">
-              <a href="" class="cs-link">FAQ</a>
+              <a href="
+                  <?php echo site_url("/contact"); ?>
+              " class="cs-link">Contact us</a>
             </li>
           </ul>
           <ul class="cs-ul">
             <li class="cs-li">
-              <span class="cs-header">Quick Links</span>
+              <span class="cs-header">Services</span>
             </li>
             <li class="cs-li">
-              <a href="" class="cs-link">Semaglutide</a>
+              <a href="
+                  <?php echo site_url("/truck-tire-sales"); ?>
+              " class="cs-link">Truck Tire Sales</a>
             </li>
             <li class="cs-li">
-              <a href="" class="cs-link">Dermal Filler</a>
+              <a href="
+                  <?php echo site_url("/truck-tire-repair"); ?>
+              " class="cs-link">Truck Tire Repair</a>
             </li>
             <li class="cs-li">
-              <a href="" class="cs-link">Tirezapetide</a>
+              <a href="
+                  <?php echo site_url("/new-truck-tires"); ?>
+              " class="cs-link">New Truck Tires</a>
             </li>
             <li class="cs-li">
-              <a href="" class="cs-link">Neurotoxins</a>
+              <a href="
+                  <?php echo site_url("/used-truck-tires"); ?>
+              " class="cs-link">Used Truck Tires</a>
+            </li>
+            <li class="cs-li">
+              <a href="
+                  <?php echo site_url("/trailer-tires"); ?>
+              " class="cs-link">Trailer Tires</a>
             </li>
           </ul>
           <ul class="cs-ul cs-contact-ul">
@@ -58,7 +81,7 @@
               <span class="cs-header">Contact</span>
             </li>
             <li class="cs-li">
-              <a href="tel:555-456 7899" class="cs-link">
+              <a href="tel:956-968-9093" class="cs-link">
                 <img
                   class="cs-icon"
                   src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-stroke.svg"
@@ -69,11 +92,11 @@
                   height="24"
                   aria-hidden="true"
                 />
-                +1 (555) 456 7899
+                +1 (956) 968-9093
               </a>
             </li>
             <li class="cs-li">
-              <a href="mailto:info@example.com" class="cs-link">
+              <a href="mailto:ed@cleardesigngraphics.com" class="cs-link">
                 <img
                   class="cs-icon"
                   src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmail-stroke.svg"
@@ -84,7 +107,7 @@
                   height="24"
                   aria-hidden="true"
                 />
-                info@example.com
+                ed@cleardesigngraphics.com
               </a>
             </li>
             <li class="cs-li">
@@ -99,7 +122,7 @@
                   height="24"
                   aria-hidden="true"
                 />
-                121 King St, Melbourne VIC 3000, Australia
+                706 W Railroad St, Weslaco, TX 78596
               </a>
             </li>
           </ul>
@@ -109,162 +132,34 @@
           <!--Navigation-->
           <ul class="cs-nav">
             <li class="cs-nav-li">
-              <a href="" class="cs-nav-link">Home</a>
+              <a href="
+                  <?php echo site_url("/home"); ?>
+              " class="cs-nav-link">Home</a>
             </li>
             <li class="cs-nav-li">
-              <a href="" class="cs-nav-link">Services</a>
+              <a href="
+                  <?php echo site_url("/about"); ?>
+              " class="cs-nav-link">About</a>
             </li>
             <li class="cs-nav-li">
-              <a href="" class="cs-nav-link">About Us</a>
+              <a href="
+                  <?php echo site_url("/services"); ?>
+              " class="cs-nav-link">Services</a>
             </li>
             <li class="cs-nav-li">
-              <a href="" class="cs-nav-link">Functional Nutrition</a>
-            </li>
-            <li class="cs-nav-li">
-              <a href="" class="cs-nav-link">Asthetics</a>
-            </li>
-            <li class="cs-nav-li">
-              <a href="" class="cs-nav-link">FAQ</a>
+              <a href="
+                  <?php echo site_url("/contact"); ?>
+              " class="cs-nav-link">Contact</a>
             </li>
           </ul>
           <!--Social-->
-          <ul class="cs-social">
-            <li class="cs-social-li">
-              <a
-                href=""
-                class="cs-social-link"
-                aria-label=""
-                target="_blank"
-                rel="noopener"
-              >
-                <!--Default Icon-->
-                <img
-                  class="cs-social-icon cs-default"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ffacebook.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-                <!--On Hover Icon-->
-                <img
-                  class="cs-social-icon cs-hover"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ffacebook-green.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-              </a>
-            </li>
-            <li class="cs-social-li">
-              <a
-                href=""
-                class="cs-social-link"
-                aria-label=""
-                target="_blank"
-                rel="noopener"
-              >
-                <!--Default Icon-->
-                <img
-                  class="cs-social-icon cs-default"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ftwitter.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-                <!--On Hover Icon-->
-                <img
-                  class="cs-social-icon cs-hover"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ftwitter-green.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-              </a>
-            </li>
-            <li class="cs-social-li">
-              <a
-                href=""
-                class="cs-social-link"
-                aria-label=""
-                target="_blank"
-                rel="noopener"
-              >
-                <!--Default Icon-->
-                <img
-                  class="cs-social-icon cs-default"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Finstagram.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-                <!--On Hover Icon-->
-                <img
-                  class="cs-social-icon cs-hover"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Finstagram-green2.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-              </a>
-            </li>
-            <li class="cs-social-li">
-              <a
-                href=""
-                class="cs-social-link"
-                aria-label=""
-                target="_blank"
-                rel="noopener"
-              >
-                <!--Default Icon-->
-                <img
-                  class="cs-social-icon cs-default"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fyoutube.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-                <!--On Hover Icon-->
-                <img
-                  class="cs-social-icon cs-hover"
-                  src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fyoutube-green.svg"
-                  alt="icon"
-                  loading="lazy"
-                  decoding="async"
-                  width="24"
-                  height="24"
-                  aria-hidden="true"
-                />
-              </a>
-            </li>
-          </ul>
         </div>
         <!--Bottom Section-->
         <div class="cs-bottom">
           <span class="cs-copyright">
             © Copyright 2023 -
             <a href="" class="cs-copyright-link" target="_blank" rel="noopener"
-              >CodeStitch Health & Wellness</a
+              >Santos & Herrera Tire Shop</a
             >
           </span>
         </div>
