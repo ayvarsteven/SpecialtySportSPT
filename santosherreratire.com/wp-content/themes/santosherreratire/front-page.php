@@ -274,20 +274,28 @@
           <source
             media="(max-width: 600px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_432237425_Preview.jpeg"
+              ); ?>
             "
           />
           <!--Tablet and above Image-->
           <source
             media="(min-width: 601px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_432237425_Preview.jpeg"
+              ); ?>
             "
           />
           <img
             loading="lazy"
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg"
+            src="
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_432237425_Preview.jpeg"
+              ); ?>
+            "
             alt="construction"
             width="738"
             height="598"
@@ -351,33 +359,38 @@
           <source
             media="(max-width: 600px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/trailer-tires-stacked_AdobeStock_605804772_Preview.jpeg"
+              ); ?>
             "
           />
           <!--Tablet and above Image-->
           <source
             media="(min-width: 601px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/trailer-tires-stacked_AdobeStock_605804772_Preview.jpeg"
+              ); ?>
             "
           />
           <img
             loading="lazy"
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg"
+            src="
+              <?php echo get_theme_file_uri(
+                  "img/trailer-tires-stacked_AdobeStock_605804772_Preview.jpeg"
+              ); ?>
+            "
             alt="room"
             width="494"
             height="700"
           />
         </picture>
         <div class="cs-content">
-          <span class="cs-topper">What We Do</span>
-          <h2 class="cs-title">House Painting Contractors For Oak Harbor</h2>
+          <span class="cs-topper">Read About</span>
+          <h2 class="cs-title">Truck Tire Sales</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            You thought you were getting your new truck tires for a steal online, but at check out you find out it’s not that great. Taxes, shipping costs, disposal fees, and more, make online tire purchases not worth the hassle. <br></br>Instead, we carry the top brands at affordable prices, as well as used truck tires. Whatever set of Tires you prefer, you can count on us for better sales experiences. We understand shopping for new tires isn’t the most enjoyable thing, but we can help. Our helpful sales staff will walk you through any questions or concerns that you have. <br></br>When you need a better option for buying truck tires, visit our store for savings. Find your quality selection of new and used tires from trusted brands at lower costs.
           </p>
           <p class="cs-text">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -385,7 +398,9 @@
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum
           </p>
-          <a href="" class="cs-button-solid">Get Free Quote</a>
+          <a href="<?php echo site_url(
+              "/truck-tire-sales"
+          ); ?>" class="cs-button-solid">Read More</a>
         </div>
       </div>
     </section>
@@ -401,41 +416,46 @@
           <source
             media="(max-width: 600px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_555057175_Preview.jpeg"
+              ); ?> 
             "
           />
           <!--Tablet and above Image-->
           <source
             media="(min-width: 601px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_555057175_Preview.jpeg"
+              ); ?> 
             "
           />
           <img
             loading="lazy"
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg"
+            src="
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_555057175_Preview.jpeg"
+              ); ?> 
+            "
             alt="room"
             width="494"
             height="700"
           />
         </picture>
         <div class="cs-content">
-          <span class="cs-topper">What We Do</span>
-          <h2 class="cs-title">House Painting Contractors For Oak Harbor</h2>
+          <span class="cs-topper">Read About</span>
+          <h2 class="cs-title">Truck Tire Repair</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Many drivers replace a tire that could have otherwise been repaired for less. Unfortunately, when your nearest service shop doesn’t offer many options, you end up paying more.We offer a broad range of truck tire repairs that last, offering you better solutions. Contact us today to hear more about your maintenance options.
           </p>
+
           <p class="cs-text">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum
+            Even a small puncture can sideline an entire vehicle, and we are here for you. When you need more truck tire repairs for less each time, you need our store.From flats and punctures to machining and balancing needs, we offer plenty of maintenance options. Avoid costly rubber tire replacements with our affordable truck tire repairs and experienced service technicians.
           </p>
-          <a href="" class="cs-button-solid">Get Free Quote</a>
+          <a href="<?php echo site_url(
+              "/truck-tire-repair"
+          ); ?>" class="cs-button-solid">Read More</a>
         </div>
       </div>
     </section>
@@ -450,41 +470,48 @@
           <source
             media="(max-width: 600px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_518044474_Preview.jpeg"
+              ); ?>
             "
           />
           <!--Tablet and above Image-->
           <source
             media="(min-width: 601px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_518044474_Preview.jpeg"
+              ); ?>
             "
           />
           <img
             loading="lazy"
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg"
+            src="
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_518044474_Preview.jpeg"
+              ); ?>
+            "
             alt="room"
             width="494"
             height="700"
           />
         </picture>
         <div class="cs-content">
-          <span class="cs-topper">What We Do</span>
-          <h2 class="cs-title">House Painting Contractors For Oak Harbor</h2>
+          <span class="cs-topper">Read About</span>
+          <h2 class="cs-title">Used Truck Tires</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            You know that buying used truck tires can save you more, but what about safety? When you don’t know who you buy your tires from, you can’t guarantee their reliability.
           </p>
           <p class="cs-text">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum
+            When you choose us at Santos & Herrera Tire Shop, it means you get used tires that you can trust. We inspect each one for safety concerns before you buy.
           </p>
-          <a href="" class="cs-button-solid">Get Free Quote</a>
+          <p class="cs-text">
+            When you need an affordable selection of used truck tires, we always save you more. Don’t settle for pre-owned tires that quickly fail. Choose our store for reliable tires.
+          </p>
+          <a href="<?php echo site_url(
+              "used-truck-tires"
+          ); ?>" class="cs-button-solid">Read More</a>
         </div>
       </div>
     </section>
@@ -500,47 +527,56 @@
           <source
             media="(max-width: 600px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_407340916_Preview.jpeg"
+              ); ?>  
             "
           />
           <!--Tablet and above Image-->
           <source
             media="(min-width: 601px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_407340916_Preview.jpeg"
+              ); ?>  
             "
           />
           <img
             loading="lazy"
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg"
+            src="
+              <?php echo get_theme_file_uri(
+                  "img/AdobeStock_407340916_Preview.jpeg"
+              ); ?>  
+            "
             alt="room"
             width="494"
             height="700"
           />
         </picture>
         <div class="cs-content">
-          <span class="cs-topper">What We Do</span>
-          <h2 class="cs-title">House Painting Contractors For Oak Harbor</h2>
+          <span class="cs-topper">Read About</span>
+          <h2 class="cs-title">New Truck Tires</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Today’s consumers have too many options available when they need new truck tires and parts. Not only is it more challenging to size them correctly, but savings aren’t always accurate.
           </p>
           <p class="cs-text">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum
+            An online store may offer a lower price up front, but then other fees add up. Instead, you can visit us today for your affordable selection of new truck tires, and:
           </p>
-          <a href="" class="cs-button-solid">Get Free Quote</a>
+          <p class="cs-text">
+            Buying new tires doesn’t have to mean going to the same store that you dislike. When trying to shop online becomes too challenging, we make the process simple again.
+          </p>
+          <p class="cs-text">
+            When your truck deserves the best new set of tires around, choose our local store. We can help you keep your vehicle safer for less with trusted brands and more.
+          </p>
+          <a href="<?php echo site_url(
+              "/new-truck-tires"
+          ); ?>" class="cs-button-solid">Read More</a>
         </div>
       </div>
     </section>
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+    
+    <!-- ------------------------------ TRAILER TIRES ----------------------------- -->
 
     <section id="RPsbs-580">
       <div class="cs-container">
@@ -549,41 +585,48 @@
           <source
             media="(max-width: 600px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+             <?php echo get_theme_file_uri(
+                 "img/tire-service_292977732_Preview.jpeg"
+             ); ?>
             "
           />
           <!--Tablet and above Image-->
           <source
             media="(min-width: 601px)"
             srcset="
-              https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg
+             <?php echo get_theme_file_uri(
+                 "img/tire-service_292977732_Preview.jpeg"
+             ); ?>
             "
           />
           <img
             loading="lazy"
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/room.jpg"
+            src="
+             <?php echo get_theme_file_uri(
+                 "img/tire-service_292977732_Preview.jpeg"
+             ); ?>
+            "
             alt="room"
             width="494"
             height="700"
           />
         </picture>
         <div class="cs-content">
-          <span class="cs-topper">What We Do</span>
-          <h2 class="cs-title">House Painting Contractors For Oak Harbor</h2>
+          <span class="cs-topper">Read About</span>
+          <h2 class="cs-title">Trailer Tires</h2>
           <p class="cs-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Trailers can take on many different functions and forms, but they all need tires eventually. No matter what type of trailer you drive, haul or use daily, shop with us.
           </p>
           <p class="cs-text">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum
+            We carry a wide selection of trailer tires that keep you working. From efficient hauling to offering contractor services to others.
           </p>
-          <a href="" class="cs-button-solid">Get Free Quote</a>
+          <p class="cs-text">
+            Even the most expensive trailer won’t go anywhere without the right set of quality tires. Save more on the tires you need the most with our affordable selection for trailers.
+          </p>
+          <a href="<?php echo site_url(
+              "/trailer-tires"
+          ); ?>" class="cs-button-solid">Read More</a>
         </div>
       </div>
     </section>
