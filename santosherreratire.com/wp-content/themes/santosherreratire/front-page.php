@@ -242,7 +242,7 @@
             <li class="cs-li">Flat Tire Replacements</li>
             <li class="cs-li">Large Brand Selection</li>
           </ul>
-          <a class="cs-link" href="tel:555-555-0234">
+          <a class="cs-link" href="tel:956-968-9093">
             <picture class="cs-wrapper">
               <img
                 class="cs-icon"
@@ -296,14 +296,18 @@
         <div class="cs-content">
           <div class="cs-flex">
             <span class="cs-topper">Our Company</span>
-            <h2 class="cs-title">Get to Know Stitch Building agency</h2>
+            <h2 class="cs-title">Why Choose Us for Services for Truck Tires?</h2>
           </div>
           <p class="cs-text">
-            We believe in transparency, communication, and collaboration. We
-            listen carefully to our clients' needs and work closely with them
-            throughout the construction process to ensure their satisfaction.
+            You have many choices for your truck’s tires, so why choose us for your needs? Visiting our store means an affordable and convenient experience for any services you need most. <br></br>
+
+            Buying your tires online usually still means you have to take a trip to a garage for installation. Even with the expense of purchasing the equipment, you need an experienced truck tire mechanic for help. <br></br>
+
+            Our staff offers the best value possible on new and used tire sales. Plus, our expert team of repair contractors keeps your truck running better all year. <br></br>
           </p>
-          <a href="" class="cs-button-solid">Learn More</a>
+          <a href="<?php echo site_url(
+              "/contact"
+          ); ?>" class="cs-button-solid">Contact</a>
         </div>
       </div>
       <picture class="cs-background">
