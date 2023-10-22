@@ -53,18 +53,18 @@ Template Name: New Truck Tires
                 <!--Mobile Image-->
                 <source media="(max-width: 600px)" srcset="
                     <?php echo get_theme_file_uri(
-                        "img/AdobeStock_622815830_Preview.jpeg"
+                        "img/AdobeStock_432237425_Preview.jpeg"
                     ); ?>
                 ">
                 <!--Tablet and above Image-->
                 <source media="(min-width: 601px)" srcset="
                     <?php echo get_theme_file_uri(
-                        "img/AdobeStock_622815830_Preview.jpeg"
+                        "img/AdobeStock_432237425_Preview.jpeg"
                     ); ?>
                 ">
                 <img loading="lazy" decoding="async" src="
                     <?php echo get_theme_file_uri(
-                        "img/AdobeStock_622815830_Preview.jpeg"
+                        "img/AdobeStock_432237425_Preview.jpeg"
                     ); ?>
                 " alt="person" width="570" height="680">
             </picture>

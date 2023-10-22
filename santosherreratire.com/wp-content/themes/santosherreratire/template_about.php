@@ -19,7 +19,7 @@ Template Name: About Page
                 We offer quality tires for less from the brands you trust and road-worthy used tires. No matter what style of truck you drive, we have your perfect set of tires.
             </p>
             <p class="cs-text">
-                One of the hardest things about your vehicle is keeping it rolling all day long. When you need the best services for truck tires, more area drivers prefer our store. From new tire sales to pre-used tires, repairs, and more services, visit Truck Tire Depot.
+                One of the hardest things about your vehicle is keeping it rolling all day long. When you need the best services for truck tires, more area drivers prefer our store. From new tire sales to pre-used tires, repairs, and more services, visit Sanchez & Herrera Tire Shop.
             </p>
             <a href="
                 <?php echo site_url("/contact"); ?>
@@ -64,7 +64,7 @@ Template Name: About Page
                 We offer quality tires for less from the brands you trust and road-worthy used tires. No matter what style of truck you drive, we have your perfect set of tires.
             </h3>
             <p class="cs-text">
-                One of the hardest things about your vehicle is keeping it rolling all day long. When you need the best services for truck tires, more area drivers prefer our store. From new tire sales to pre-used tires, repairs, and more services, visit Truck Tire Depot.
+                One of the hardest things about your vehicle is keeping it rolling all day long. When you need the best services for truck tires, more area drivers prefer our store. From new tire sales to pre-used tires, repairs, and more services, visit Sanchez & Herrera Tire Shop.
             </p>
             <div class="cs-content-flair">
                 <ul class="cs-ul">
