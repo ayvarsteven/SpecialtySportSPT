@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo get_the_title($post) ?></title>
+    <title><?php echo get_the_title($post); ?></title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
@@ -21,9 +21,13 @@
     <header id="cs-navigation">
       <div class="cs-container">
         <!--Nav Logo-->
-        <a href="<?php echo site_url('/home') ?>" class="cs-logo" aria-label="back to home">
+        <a href="<?php echo site_url(
+            "/home"
+        ); ?>" class="cs-logo" aria-label="back to home">
           <img
-            src="<?php echo get_theme_file_uri( 'img/sanchez-and-herrera-logo.png' ) ?>"
+            src="<?php echo get_theme_file_uri(
+                "img/sanchez-and-herrera-logo.png"
+            ); ?>"
             alt="logo"
             width="210"
             height="29"
@@ -45,13 +49,19 @@
           <div class="cs-ul-wrapper">
             <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
               <li class="cs-li">
-                <a href="<?php echo site_url('/home') ?>" class="cs-li-link cs-active"> Home </a>
+                <a href="<?php echo site_url(
+                    "/home"
+                ); ?>" class="cs-li-link cs-active"> Home </a>
               </li>
               <li class="cs-li">
-                <a href="<?php echo site_url('/about') ?>" class="cs-li-link"> About </a>
+                <a href="<?php echo site_url(
+                    "/about"
+                ); ?>" class="cs-li-link"> About </a>
               </li>
               <li class="cs-li">
-                <a href="<?php echo site_url('/contact') ?>" class="cs-li-link">Contact</a>
+                <a href="<?php echo site_url(
+                    "/contact"
+                ); ?>" class="cs-li-link">Contact</a>
               </li>
               <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
               <li class="cs-li cs-dropdown" tabindex="0">
@@ -69,26 +79,38 @@
                 </span>
                 <ul class="cs-drop-ul">
                   <li class="cs-drop-li">
-                    <a href="<?php echo site_url('/truck-tire-sales') ?>" class="cs-li-link cs-drop-link">Truck Tire Sales</a>
+                    <a href="<?php echo site_url(
+                        "/truck-tire-sales"
+                    ); ?>" class="cs-li-link cs-drop-link">Truck Tire Sales</a>
                   </li>
                   <li class="cs-drop-li">
-                    <a href="<?php echo site_url('/truck-tire-repair') ?>" class="cs-li-link cs-drop-link">Truck Tire Repair</a>
+                    <a href="<?php echo site_url(
+                        "/truck-tire-repair"
+                    ); ?>" class="cs-li-link cs-drop-link">Truck Tire Repair</a>
                   </li>
                   <li class="cs-drop-li">
-                    <a href="<?php echo site_url('/new-truck-tires') ?>" class="cs-li-link cs-drop-link">New Truck Tires</a>
+                    <a href="<?php echo site_url(
+                        "/new-truck-tires"
+                    ); ?>" class="cs-li-link cs-drop-link">New Truck Tires</a>
                   </li>
                   <li class="cs-drop-li">
-                    <a href="<?php echo site_url('/used-truck-tires') ?>" class="cs-li-link cs-drop-link">Used Truck Tires</a>
+                    <a href="<?php echo site_url(
+                        "/used-truck-tires"
+                    ); ?>" class="cs-li-link cs-drop-link">Used Truck Tires</a>
                   </li>
                   <li class="cs-drop-li">
-                    <a href="<?php echo site_url('/trailer-tires') ?>" class="cs-li-link cs-drop-link">Trailer Tires</a>
+                    <a href="<?php echo site_url(
+                        "/trailer-tires"
+                    ); ?>" class="cs-li-link cs-drop-link">Trailer Tires</a>
                   </li>
                 </ul>
               </li>
             </ul>
           </div>
         </nav>
-        <a href="<?php echo site_url('/home') ?>" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <a href="<?php echo site_url(
+            "/contact"
+        ); ?>" class="cs-button-solid cs-nav-button">Contact Us</a>
 
         <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
         <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
