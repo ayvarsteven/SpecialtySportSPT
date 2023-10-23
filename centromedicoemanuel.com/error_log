@@ -1,0 +1,1 @@
+[23-Oct-2023 00:20:25 UTC] PHP Warning:  Undefined array key "SERVER_NAME" in phar:///usr/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1309) : eval()'d code on line 22
