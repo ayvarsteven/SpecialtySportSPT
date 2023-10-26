@@ -2156,7 +2156,6 @@ html {
 @media only screen and (min-width: 0rem) {
   #content-1450 {
     padding: var(--sectionPadding);
-    padding-top: 8rem;
   }
   #content-1450 .cs-container {
     width: 100%;
@@ -2226,7 +2225,6 @@ html {
  @media only screen and ( min-width: 64rem) {
   #content-1450 {
     padding: var(--sectionPadding);
-    padding-top: 20rem;
   }
  }
 /* ----------------------------- CONTENT SECTION ---------------------------- */
@@ -3136,7 +3134,7 @@ html {
 }
 
                                 
-                                /*-- -------------------------- -->
+/*-- -------------------------- -->
 <---          Contact           -->
 <--- -------------------------- -*/
 
@@ -3347,4 +3345,8 @@ html {
   color: var(--headerColor);
   margin-bottom: 0.25rem;
   display: block;
+}
+
+#content-1450 {
+  background-color: var(--gs-100);
 }

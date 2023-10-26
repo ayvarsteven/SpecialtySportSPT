@@ -219,6 +219,26 @@
       </div>
     </section>
 
+<!-- NOW HIRING -->
+
+<section id="content-1450">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Join Our Team</span>
+            <h2 class="cs-title">Sanchez & Herrera Tire Shop is Hiring</h2>
+            <p class="cs-text">
+              Are you looking for a new career opportunity in the automotive industry? If you are passionate about cars, trucks, and tires, then we have the perfect job for you!
+
+              Sanchez and Herrera Tire Shop is now hiring experienced tire technicians to join our team. 
+            </p>
+            <a href="
+            <?php echo site_url("/contact"); ?>
+            " class="cs-button-solid">Contact Us</a>
+        </div>
+    </div>
+</section>
+                                
+
     <!-- ----------------------------------------------------------------------- -->
     <!--                            VALUE PROPOSITION                            -->
     <!-- ----------------------------------------------------------------------- -->
@@ -328,13 +348,15 @@
           No matter what type of tire buyer you are, we can help you save more on services. Visit our store today and find the best selection of new and used tires, including:
           </p>
           <ul class="cs-list">
+            <li class="cs-li">Toyo </li>
+            <li class="cs-li">Michelin</li>
+            <li class="cs-li">RF GoodRich</li>
             <li class="cs-li">Uniroyal</li>
             <li class="cs-li">Firestone</li>
-            <li class="cs-li">Fallen</li>
-            <li class="cs-li">Koryo</li>
-            <li class="cs-li">Inspect Used Tires</li>
-            <li class="cs-li">Flat Tire Replacements</li>
-            <li class="cs-li">Large Brand Selection</li>
+            <li class="cs-li">Nitto</li>
+            <li class="cs-li">Mickey Thompson</li>
+            <li class="cs-li">Hercules</li>
+            <li class="cs-li">Pirelli</li>
           </ul>
           <a class="cs-link" href="tel:956-968-9093">
             <picture class="cs-wrapper">
@@ -729,9 +751,8 @@
     <!--                                  LOGOS                                  -->
     <!-- ----------------------------------------------------------------------- -->
 
-    <section id="logos-572">
+    <!-- <section id="logos-572">
       <div class="cs-container">
-        <!--Ideally you want to use svg's for the file path image, which is why these aren't wrapped in picture elements for different screen sizes-->
         <img
           class="cs-logo"
           src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo1.png"
@@ -769,7 +790,7 @@
           decoding="async"
         />
       </div>
-    </section>
+    </section> -->
 
     <!-- ----------------------------------------------------------------------- -->
     <!--                               GOOGLE MAPS                               -->
