@@ -12,9 +12,9 @@
         <p class="cs-text">
           Santos & Herrera offers the best services for truck tires throughout the Weslaco, Texas. Save more on new and used tires and repairs today.
         </p>
-        <a href="<?php echo site_url(
-            "/contact"
-        ); ?>" class="cs-button-solid">Contact Us</a>
+          <a href="<?php echo site_url(
+              "/contact"
+          ); ?>" class="cs-button-solid">Contact Us</a>
     </div>
 
     <!-- Background Image -->
@@ -123,6 +123,100 @@
           </p>
         </li>
       </ul>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Contact Form                  -->
+    <!-- ============================================ -->
+
+    <section id="cs-contact-490">
+      <div class="cs-container">
+        <!-- Contact Info -->
+        <div class="cs-content">
+          <span class="cs-topper">Request a Quote</span>
+          <h2 class="cs-title">Available Services</h2>
+          <p class="cs-text">
+            Sanchez & Herrera offers the best services for truck tires
+            throughout the Weslaco, Texas, community. Save more on new and used
+            tires and repairs today.
+          </p>
+
+          <span class="cs-topper__black">Passenger Vehicles</span>
+          <ul>
+            <li>Tire Repair</li>
+            <li>Rotation</li>
+            <li>Balance</li>
+            <li>Same day service for most repairs</li>
+          </ul>
+
+          <span class="cs-topper__black">Trucks</span>
+          <ul>
+            <li>Alignments</li>
+            <li>Suspension Work</li>
+            <li>Breaks</li>
+            <li>Field Service</li>
+          </ul>
+
+          <!--Social Buttons-->
+        </div>
+        <!-- Form -->
+        <form id="cs-form-490" name="Contact Form" method="post">
+          <label class="cs-label">
+            Name
+            <input
+              class="cs-input"
+              required
+              type="text"
+              id="name-490"
+              name="name"
+              placeholder="John/Jane Doe"
+            />
+          </label>
+          <label class="cs-label">
+            Email
+            <input
+              class="cs-input"
+              required
+              type="text"
+              id="email-490"
+              name="email"
+              placeholder="name@company.com"
+            />
+          </label>
+          <label class="cs-label">
+            Phone
+            <input
+              class="cs-input"
+              required
+              type="text"
+              id="phone-490"
+              name="phone"
+              placeholder="+1 (206) 987-6543"
+            />
+          </label>
+          <label class="cs-label">
+            How Did You Find Us
+            <input
+              class="cs-input"
+              type="text"
+              id="find-490"
+              name="find-us"
+              placeholder="Social Media, Family, Friend..."
+            />
+          </label>
+          <label class="cs-label -label-message">
+            Message
+            <textarea
+              class="cs-input"
+              required
+              name="Message"
+              id="message-490"
+              placeholder="Hello, I’m interested in..."
+            ></textarea>
+          </label>
+          <button class="cs-button-solid" type="submit">Get Your Quote</button>
+        </form>
+      </div>
     </section>
 
     <!-- ----------------------------------------------------------------------- -->
