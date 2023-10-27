@@ -136,7 +136,7 @@
           <span class="cs-topper">Request a Quote</span>
           <h2 class="cs-title">Available Services</h2>
           <p class="cs-text">
-            Sanchez & Herrera offers the best services for truck tires
+            Santos & Herrera offers the best services for truck tires
             throughout the Weslaco, Texas, community. Save more on new and used
             tires and repairs today.
           </p>

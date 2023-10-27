@@ -28,7 +28,7 @@ Template Name: Contact Us
             </a>
             <!--Email-->
             <span class="cs-header">Email</span>
-            <a href="mailtp:info@iabuyer.com" class="cs-link">ed@cleardesigngraphics.com</a>
+            <a href="mailtp:info@iabuyer.com" class="cs-link">info@santosherreratire.com</a>
             <!--Phone-->
             <span class="cs-header">Phone</span>
             <a href="tel:425-686-9566" class="cs-link">(956) 968-9093</a>
