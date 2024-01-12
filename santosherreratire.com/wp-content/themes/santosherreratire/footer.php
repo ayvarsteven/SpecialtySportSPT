@@ -107,7 +107,7 @@
                   height="24"
                   aria-hidden="true"
                 />
-                ed@cleardesigngraphics.com
+                info@santosherreratire.com
               </a>
             </li>
             <li class="cs-li">
